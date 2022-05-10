@@ -472,7 +472,7 @@
     },
     {
       "tag": "to_weather",
-      "to_weather": [
+      "files": [
         {
             "duration": 4.49,
             "path": "to_weather/to_weather_04.m4a"
