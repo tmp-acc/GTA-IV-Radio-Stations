@@ -2,7 +2,7 @@
 Pieces
 ======
 
-[ ] radio_afro_beat
+[✔️] radio_afro_beat
 [ ] radio_babylon
 [ ] radio_classical_ambient
 [ ] radio_dance_rock
@@ -30,6 +30,10 @@ Big chunks
 ==========
 
 [ ] radio_lazlow
-[ ] radio_independence
 [ ] radio_plr
 [ ] radio_wktt
+
+New type
+========
+
+[ ] radio_independence
