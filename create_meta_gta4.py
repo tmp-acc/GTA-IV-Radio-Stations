@@ -40,7 +40,7 @@ def parseStationFilePath(path) :
     if path.startswith("outro/") :
         return SndOutro, path[len("outro/"):]
     if path.startswith("to_weather/to_weather") :
-        return SndToNews, path[len('to_weather/'):]
+        return SndToWeather, path[len('to_weather/'):]
     if path.startswith("to_news/to_news") :
         return SndToNews, path[len('to_news/'):]
     if path.startswith("to_ad/to_ad") :
@@ -90,16 +90,17 @@ def getSoundInfo(name):
     h, m, s = int(m.group(1)), int(m.group(2)), float(m.group(3))
     file_duration = h * 60 * 60 + m * 60 + s
     sound_duration = None
-    m = re.findall("silence_start: (-?\d*.\d*).+", std_err)
-    if m :
-        last_silence_start = float(m[-1])
-        m = re.findall("silence_end: (-?\d*.\d*).+", std_err)
-        if m :
-            last_silence_end = float(m[-1])
-            if last_silence_end < last_silence_start :
-                sound_duration = last_silence_start
-        else :
-            sound_duration = last_silence_start
+    # m = re.findall("silence_start: (-?\d*.\d*).+", std_err)
+    # if m :
+    #     last_silence_start = float(m[-1])
+    #     m = re.findall("silence_end: (-?\d*.\d*).+", std_err)
+    #     if m :
+    #         print(m)
+    #         last_silence_end = float(m[-1])
+    #         if last_silence_end < last_silence_start :
+    #             sound_duration = last_silence_start
+    #     else :
+    #         sound_duration = last_silence_start
     return file_duration, sound_duration
 
 def createMetaJson(rootDir) :
@@ -117,11 +118,10 @@ def createMetaJson(rootDir) :
                 kindDesc = KindDesc[kind]
                 print(stationName, kindDesc, name, filePath)
                 file_duration, sound_duration = getSoundInfo(filePath)
-                info = {"path": path, "file_duration": file_duration }
+                info = {"path": path, "duration": file_duration }
                 if sound_duration :
-                    info ["sound_duration"] = sound_duration
+                    info ["audibleDuration"] = sound_duration
                 if stationName :
-
                     if stationName not in stations :
                         stations[stationName] = {kindDesc: [info]}
                     else :
