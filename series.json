@@ -887,10 +887,12 @@
 
         ]
     },
-
     "stations": [
         {
             "path": "radio_afro_beat"
-        }    
+        },
+        {
+            "path": "radio_babylon"
+        }
     ]
 }
