@@ -12,144 +12,144 @@
       "files": [
         {
             "duration": 211.65,
-            "path": "radio_afro_beat/galaxy.m4a"
+            "path": "galaxy.m4a"
         },
         {
             "duration": 185.43,
-            "path": "radio_afro_beat/justkissedmybaby.m4a",
+            "path": "justkissedmybaby.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 4.21,
-                  "path": "radio_afro_beat/intro/justkissedmybaby_01.m4a"
+                  "path": "intro/justkissedmybaby_01.m4a"
                 },
                 {
                     "duration": 4.49,
-                    "path": "radio_afro_beat/intro/justkissedmybaby_02.m4a"
+                    "path": "intro/justkissedmybaby_02.m4a"
                 }
               ]
             }
         },
         {
             "duration": 396.40999999999997,
-            "path": "radio_afro_beat/sorrowtearsblood.m4a",
+            "path": "sorrowtearsblood.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 5.36,
-                  "path": "radio_afro_beat/intro/sorrowtearsblood_01.m4a"
+                  "path": "intro/sorrowtearsblood_01.m4a"
                 },
                 {
                     "duration": 4.12,
-                    "path": "radio_afro_beat/intro/sorrowtearsblood_02.m4a"
+                    "path": "intro/sorrowtearsblood_02.m4a"
                 }
               ]
             }
         },
         {
             "duration": 195.12,
-            "path": "radio_afro_beat/homeiswhere.m4a",
+            "path": "homeiswhere.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 2.09,
-                  "path": "radio_afro_beat/intro/homeiswhere_02.m4a"
+                  "path": "intro/homeiswhere_02.m4a"
                 },
                 {
                     "duration": 3.39,
-                    "path": "radio_afro_beat/intro/homeiswhere_01.m4a"
+                    "path": "intro/homeiswhere_01.m4a"
                 }
               ]
             }
         },
         {
             "duration": 299.58,
-            "path": "radio_afro_beat/truthdontdie.m4a",
+            "path": "truthdontdie.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 7.06,
-                  "path": "radio_afro_beat/intro/truthdontdie_01.m4a"
+                  "path": "intro/truthdontdie_01.m4a"
                 },
                 {
                     "duration": 4.7,
-                    "path": "radio_afro_beat/intro/truthdontdie_02.m4a"
+                    "path": "intro/truthdontdie_02.m4a"
                 }
               ]
             }
         },
         {
             "duration": 247.72,
-            "path": "radio_afro_beat/whoisheandwhatis.m4a",
+            "path": "whoisheandwhatis.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 3.5,
-                  "path": "radio_afro_beat/intro/whoisheandwhatis_02.m4a"
+                  "path": "intro/whoisheandwhatis_02.m4a"
                 },
                 {
                     "duration": 3.86,
-                    "path": "radio_afro_beat/intro/whoisheandwhatis_01.m4a"
+                    "path": "intro/whoisheandwhatis_01.m4a"
                 }
               ]
             }
         },
         {
             "duration": 214.45,
-            "path": "radio_afro_beat/livinitup.m4a",
+            "path": "livinitup.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 4.49,
-                  "path": "radio_afro_beat/intro/livinitup_02.m4a"
+                  "path": "intro/livinitup_02.m4a"
                 },
                 {
                     "duration": 3.14,
-                    "path": "radio_afro_beat/intro/livinitup_01.m4a"
+                    "path": "intro/livinitup_01.m4a"
                 }
               ]
             }
         },
         {
             "duration": 362.52,
-            "path": "radio_afro_beat/zombie.m4a",
+            "path": "zombie.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 8.7,
-                  "path": "radio_afro_beat/intro/zombie_02.m4a"
+                  "path": "intro/zombie_02.m4a"
                 },
                 {
                     "duration": 7.59,
-                    "path": "radio_afro_beat/intro/zombie_01.m4a"
+                    "path": "intro/zombie_01.m4a"
                 }
               ]
             }
         },
         {
             "duration": 189.4,
-            "path": "radio_afro_beat/newbell.m4a",
+            "path": "newbell.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 4.11,
-                  "path": "radio_afro_beat/intro/newbell_02.m4a"
+                  "path": "intro/newbell_02.m4a"
                 },
                 {
                     "duration": 5.6,
-                    "path": "radio_afro_beat/intro/newbell_01.m4a"
+                    "path": "intro/newbell_01.m4a"
                 }
               ]
             }
         },
         {
             "duration": 191.84,
-            "path": "radio_afro_beat/achanceforpeace.m4a",
+            "path": "achanceforpeace.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 3.69,
-                  "path": "radio_afro_beat/intro/achanceforpeace_01.m4a"
+                  "path": "intro/achanceforpeace_01.m4a"
                 }
               ]
             }
@@ -157,20 +157,20 @@
         },
         {
             "duration": 199.89,
-            "path": "radio_afro_beat/cryinforlove.m4a"
+            "path": "cryinforlove.m4a"
         },
         {
             "duration": 215.62,
-            "path": "radio_afro_beat/givethepeople.m4a",
+            "path": "givethepeople.m4a",
             "attaches": {
               "files": [
                 {
                   "duration": 5.65,
-                  "path": "radio_afro_beat/intro/givethepeople_01.m4a"
+                  "path": "intro/givethepeople_01.m4a"
                 },
                 {
                   "duration": 2.75,
-                  "path": "radio_afro_beat/intro/givethepeople_02.m4a"
+                  "path": "intro/givethepeople_02.m4a"
                 }
               ]
             }
@@ -182,95 +182,95 @@
       "files": [
         {
             "duration": 6.37,
-            "path": "radio_afro_beat/general/0xd040b175.m4a"
+            "path": "general/0xd040b175.m4a"
         },
         {
             "duration": 17.29,
-            "path": "radio_afro_beat/general/0xe0dd52ae.m4a"
+            "path": "general/0xe0dd52ae.m4a"
         },
         {
             "duration": 14.4,
-            "path": "radio_afro_beat/general/0xf1d46c9c.m4a"
+            "path": "general/0xf1d46c9c.m4a"
         },
         {
             "duration": 7.29,
-            "path": "radio_afro_beat/general/0xe4cd591e.m4a"
+            "path": "general/0xe4cd591e.m4a"
         },
         {
             "duration": 11.33,
-            "path": "radio_afro_beat/general/0x9d954bf7.m4a"
+            "path": "general/0x9d954bf7.m4a"
         },
         {
             "duration": 15.42,
-            "path": "radio_afro_beat/general/0x7cda82aa.m4a"
+            "path": "general/0x7cda82aa.m4a"
         },
         {
             "duration": 12.67,
-            "path": "radio_afro_beat/general/0xf597fab3.m4a"
+            "path": "general/0xf597fab3.m4a"
         },
         {
             "duration": 8.99,
-            "path": "radio_afro_beat/general/0x39e07cb3.m4a"
+            "path": "general/0x39e07cb3.m4a"
         },
         {
             "duration": 14.99,
-            "path": "radio_afro_beat/general/general_09.m4a"
+            "path": "general/general_09.m4a"
         },
         {
             "duration": 15.96,
-            "path": "radio_afro_beat/general/0xd4223138.m4a"
+            "path": "general/0xd4223138.m4a"
         },
         {
             "duration": 14.76,
-            "path": "radio_afro_beat/general/0x71d27472.m4a"
+            "path": "general/0x71d27472.m4a"
         },
         {
             "duration": 14.47,
-            "path": "radio_afro_beat/general/0xc27a15e8.m4a"
+            "path": "general/0xc27a15e8.m4a"
         },
         {
             "duration": 13.03,
-            "path": "radio_afro_beat/general/general_10.m4a"
+            "path": "general/general_10.m4a"
         },
         {
             "duration": 14.93,
-            "path": "radio_afro_beat/general/0xa9cf646b.m4a"
+            "path": "general/0xa9cf646b.m4a"
         },
         {
             "duration": 8.98,
-            "path": "radio_afro_beat/general/0xc0609045.m4a"
+            "path": "general/0xc0609045.m4a"
         },
         {
             "duration": 11.78,
-            "path": "radio_afro_beat/general/0x8e7325d7.m4a"
+            "path": "general/0x8e7325d7.m4a"
         },
         {
             "duration": 15.18,
-            "path": "radio_afro_beat/general/0x998abc0a.m4a"
+            "path": "general/0x998abc0a.m4a"
         },
         {
             "duration": 12.58,
-            "path": "radio_afro_beat/general/0xc9681bc4.m4a"
+            "path": "general/0xc9681bc4.m4a"
         },
         {
             "duration": 9.96,
-            "path": "radio_afro_beat/general/0xd71b3f06.m4a"
+            "path": "general/0xd71b3f06.m4a"
         },
         {
             "duration": 14.37,
-            "path": "radio_afro_beat/general/0x82c40e79.m4a"
+            "path": "general/0x82c40e79.m4a"
         },
         {
             "duration": 8.26,
-            "path": "radio_afro_beat/general/0xff348f5c.m4a"
+            "path": "general/0xff348f5c.m4a"
         },
         {
             "duration": 15.76,
-            "path": "radio_afro_beat/general/0xb8f402b8.m4a"
+            "path": "general/0xb8f402b8.m4a"
         },
         {
             "duration": 8.9,
-            "path": "radio_afro_beat/general/0xd732bde9.m4a"
+            "path": "general/0xd732bde9.m4a"
         }
       ]
     },
@@ -279,43 +279,43 @@
       "files": [
         {
             "duration": 14.23,
-            "path": "radio_afro_beat/id/id_01.m4a"
+            "path": "id/id_01.m4a"
         },
         {
             "duration": 12.46,
-            "path": "radio_afro_beat/id/id_03.m4a"
+            "path": "id/id_03.m4a"
         },
         {
             "duration": 8.21,
-            "path": "radio_afro_beat/id/id_02.m4a"
+            "path": "id/id_02.m4a"
         },
         {
             "duration": 12.37,
-            "path": "radio_afro_beat/id/id_06.m4a"
+            "path": "id/id_06.m4a"
         },
         {
             "duration": 10.01,
-            "path": "radio_afro_beat/id/id_07.m4a"
+            "path": "id/id_07.m4a"
         },
         {
             "duration": 15.21,
-            "path": "radio_afro_beat/id/id_05.m4a"
+            "path": "id/id_05.m4a"
         },
         {
             "duration": 16.21,
-            "path": "radio_afro_beat/id/id_10.m4a"
+            "path": "id/id_10.m4a"
         },
         {
             "duration": 13.72,
-            "path": "radio_afro_beat/id/id_04.m4a"
+            "path": "id/id_04.m4a"
         },
         {
             "duration": 10.41,
-            "path": "radio_afro_beat/id/id_09.m4a"
+            "path": "id/id_09.m4a"
         },
         {
             "duration": 7.98,
-            "path": "radio_afro_beat/id/id_08.m4a"
+            "path": "id/id_08.m4a"
         }
       ]
     },
@@ -324,43 +324,43 @@
       "files": [
         {
             "duration": 28.84,
-            "path": "radio_afro_beat/solo/solo_08.m4a"
+            "path": "solo/solo_08.m4a"
         },
         {
             "duration": 31.51,
-            "path": "radio_afro_beat/solo/solo_09.m4a"
+            "path": "solo/solo_09.m4a"
         },
         {
             "duration": 24.24,
-            "path": "radio_afro_beat/solo/solo_07.m4a"
+            "path": "solo/solo_07.m4a"
         },
         {
             "duration": 11.26,
-            "path": "radio_afro_beat/solo/solo_06.m4a"
+            "path": "solo/solo_06.m4a"
         },
         {
             "duration": 24.96,
-            "path": "radio_afro_beat/solo/solo_10.m4a"
+            "path": "solo/solo_10.m4a"
         },
         {
             "duration": 31.13,
-            "path": "radio_afro_beat/solo/solo_04.m4a"
+            "path": "solo/solo_04.m4a"
         },
         {
             "duration": 23.09,
-            "path": "radio_afro_beat/solo/solo_05.m4a"
+            "path": "solo/solo_05.m4a"
         },
         {
             "duration": 20.44,
-            "path": "radio_afro_beat/solo/solo_01.m4a"
+            "path": "solo/solo_01.m4a"
         },
         {
             "duration": 31.24,
-            "path": "radio_afro_beat/solo/solo_02.m4a"
+            "path": "solo/solo_02.m4a"
         },
         {
             "duration": 20.18,
-            "path": "radio_afro_beat/solo/solo_03.m4a"
+            "path": "solo/solo_03.m4a"
         }
       ]
     },
@@ -369,19 +369,19 @@
       "files": [
         {
             "duration": 3.77,
-            "path": "radio_afro_beat/time_evening/evening_03.m4a"
+            "path": "time_evening/evening_03.m4a"
         },
         {
             "duration": 8.49,
-            "path": "radio_afro_beat/time_evening/evening_02.m4a"
+            "path": "time_evening/evening_02.m4a"
         },
         {
             "duration": 6.65,
-            "path": "radio_afro_beat/time_evening/evening_01.m4a"
+            "path": "time_evening/evening_01.m4a"
         },
         {
             "duration": 5.28,
-            "path": "radio_afro_beat/time_evening/evening_04.m4a"
+            "path": "time_evening/evening_04.m4a"
         }
       ]
     },
@@ -390,19 +390,19 @@
       "files": [
         {
             "duration": 10.09,
-            "path": "radio_afro_beat/time_morning/morning_01.m4a"
+            "path": "time_morning/morning_01.m4a"
         },
         {
             "duration": 7.07,
-            "path": "radio_afro_beat/time_morning/morning_03.m4a"
+            "path": "time_morning/morning_03.m4a"
         },
         {
             "duration": 7.49,
-            "path": "radio_afro_beat/time_morning/morning_02.m4a"
+            "path": "time_morning/morning_02.m4a"
         },
         {
             "duration": 3.66,
-            "path": "radio_afro_beat/time_morning/morning_04.m4a"
+            "path": "time_morning/morning_04.m4a"
         }
       ]
     },
@@ -411,19 +411,19 @@
       "files": [
         {
             "duration": 7.31,
-            "path": "radio_afro_beat/time_night/night_01.m4a"
+            "path": "time_night/night_01.m4a"
         },
         {
             "duration": 6.75,
-            "path": "radio_afro_beat/time_night/night_03.m4a"
+            "path": "time_night/night_03.m4a"
         },
         {
             "duration": 12.03,
-            "path": "radio_afro_beat/time_night/night_02.m4a"
+            "path": "time_night/night_02.m4a"
         },
         {
             "duration": 3.82,
-            "path": "radio_afro_beat/time_night/night_04.m4a"
+            "path": "time_night/night_04.m4a"
         }
       ]
     },
@@ -432,19 +432,19 @@
       "files": [
         {
             "duration": 7.57,
-            "path": "radio_afro_beat/time_afternoon/afternoon_01.m4a"
+            "path": "time_afternoon/afternoon_01.m4a"
         },
         {
             "duration": 6.87,
-            "path": "radio_afro_beat/time_afternoon/afternoon_02.m4a"
+            "path": "time_afternoon/afternoon_02.m4a"
         },
         {
             "duration": 10.2,
-            "path": "radio_afro_beat/time_afternoon/afternoon_03.m4a"
+            "path": "time_afternoon/afternoon_03.m4a"
         },
         {
             "duration": 3.44,
-            "path": "radio_afro_beat/time_afternoon/afternoon_04.m4a"
+            "path": "time_afternoon/afternoon_04.m4a"
         }
       ]
     },
@@ -453,23 +453,23 @@
       "files": [
         {
             "duration": 2.76,
-            "path": "radio_afro_beat/to_ad/to_ad_03.m4a"
+            "path": "to_ad/to_ad_03.m4a"
         },
         {
             "duration": 4.76,
-            "path": "radio_afro_beat/to_ad/to_ad_02.m4a"
+            "path": "to_ad/to_ad_02.m4a"
         },
         {
             "duration": 7.13,
-            "path": "radio_afro_beat/to_ad/to_ad_01.m4a"
+            "path": "to_ad/to_ad_01.m4a"
         },
         {
             "duration": 3.25,
-            "path": "radio_afro_beat/to_ad/to_ad_05.m4a"
+            "path": "to_ad/to_ad_05.m4a"
         },
         {
             "duration": 4.03,
-            "path": "radio_afro_beat/to_ad/to_ad_04.m4a"
+            "path": "to_ad/to_ad_04.m4a"
         }
       ]
     },
@@ -478,23 +478,23 @@
       "files": [
         {
             "duration": 3.16,
-            "path": "radio_afro_beat/to_news/to_news_05.m4a"
+            "path": "to_news/to_news_05.m4a"
         },
         {
             "duration": 3.12,
-            "path": "radio_afro_beat/to_news/to_news_04.m4a"
+            "path": "to_news/to_news_04.m4a"
         },
         {
             "duration": 7.87,
-            "path": "radio_afro_beat/to_news/to_news_01.m4a"
+            "path": "to_news/to_news_01.m4a"
         },
         {
             "duration": 8.35,
-            "path": "radio_afro_beat/to_news/to_news_03.m4a"
+            "path": "to_news/to_news_03.m4a"
         },
         {
             "duration": 6.92,
-            "path": "radio_afro_beat/to_news/to_news_02.m4a"
+            "path": "to_news/to_news_02.m4a"
         }
       ]
     },
@@ -502,24 +502,24 @@
       "tag": "to_weather",
       "files": [
         {
-          "duration": 7.73,
-          "path": "radio_liberty_rock/to_weather/to_weather_04.m4a"
+          "duration": 2.0,
+          "path": "to_weather/to_weather_04.m4a"
         },
         {
-            "duration": 10.73,
-            "path": "radio_liberty_rock/to_weather/to_weather_05.m4a"
+            "duration": 2.17,
+            "path": "to_weather/to_weather_05.m4a"
         },
         {
-            "duration": 9.94,
-            "path": "radio_liberty_rock/to_weather/to_weather_01.m4a"
+            "duration": 5.84,
+            "path": "to_weather/to_weather_01.m4a"
         },
         {
-            "duration": 10.07,
-            "path": "radio_liberty_rock/to_weather/to_weather_02.m4a"
+            "duration": 8.25,
+            "path": "to_weather/to_weather_02.m4a"
         },
         {
-            "duration": 4.22,
-            "path": "radio_liberty_rock/to_weather/to_weather_03.m4a"
+            "duration": 1.59,
+            "path": "to_weather/to_weather_03.m4a"
         }
       ]
     }
