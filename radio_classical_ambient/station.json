@@ -361,20 +361,8 @@
           },
           "nextFragment": [
             {
-              "fragmentTag": "adverts",
-              "probability": 0.357
-            },
-            {
               "fragmentTag": "monoSolo",
-              "probability": 0.286
-            },
-            {
-              "fragmentTag": "news",
-              "probability": 0.1
-            },
-            {
-              "fragmentTag": "weather",
-              "probability": 0.043
+              "probability": 0.333
             },
             {
               "fragmentTag": "track"
@@ -392,54 +380,6 @@
               }
             ],
             "mix": [
-              {
-                "tag": "toNews",
-                "src": {
-                  "type": "group",
-                  "groupTag": "to_news"
-                },
-                "condition": {
-                  "type": "nextFragment",
-                  "fragmentTag": "news"
-                },
-                "posVariant": [
-                  {
-                    "posTag": "end"
-                  }
-                ]
-              },
-              {
-                "tag": "toWeather",
-                "src": {
-                  "type": "group",
-                  "groupTag": "to_weather"
-                },
-                "condition": {
-                  "type": "nextFragment",
-                  "fragmentTag": "weather"
-                },
-                "posVariant": [
-                  {
-                    "posTag": "end"
-                  }
-                ]
-              },
-              {
-                "tag": "toAdverts",
-                "src": {
-                  "type": "group",
-                  "groupTag": "to_adverts"
-                },
-                "condition": {
-                  "type": "nextFragment",
-                  "fragmentTag": "adverts"
-                },
-                "posVariant": [
-                  {
-                    "posTag": "end"
-                  }
-                ]
-              },
               {
                 "tag": "general",
                 "src": {
@@ -612,50 +552,6 @@
             }
           ]
         },
-        {
-          "tag": "news",
-          "src": {
-            "type": "group",
-            "groupTag": "news"
-          },
-          "nextFragment": [
-            {
-              "fragmentTag": "id",
-              "probability": 0.667
-            },
-            {
-              "fragmentTag": "track"
-            }
-          ]
-        },
-        {
-          "tag": "weather",
-          "src": {
-            "type": "group",
-            "groupTag": "weather"
-          },
-          "nextFragment": [
-            {
-              "fragmentTag": "id",
-              "probability": 0.667
-            },
-            {
-              "fragmentTag": "track"
-            }
-          ]
-        },
-        {
-          "tag": "adverts",
-          "src": {
-            "type": "group",
-            "groupTag": "adverts"
-          },
-          "nextFragment": [
-            {
-              "fragmentTag": "track"
-            }
-          ]
-        }
       ]
     }
 }
