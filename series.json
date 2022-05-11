@@ -1,4 +1,8 @@
 {
+    "info": {
+        "title": "GTA IV Radio",
+        "logo": "gta_iv.png"
+    },
     "common": {
         "fileGroups": [
             {
