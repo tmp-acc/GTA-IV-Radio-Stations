@@ -6,7 +6,7 @@ Pieces
 [✔️] radio_babylon
 [✔️] radio_classical_ambient
 [✔️] radio_dance_rock
-[ ] radio_fusion_fm
+[✔️] radio_fusion_fm
 [ ] radio_hardcore
 [ ] radio_jazz_nation
 [ ] radio_k109_the_studio

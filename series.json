@@ -904,6 +904,9 @@
         },
         {
             "path": "radio_hardcore"
-        }        
+        },
+        {
+            "path": "radio_jazz_nation"
+        }
     ]
 }
