@@ -898,6 +898,9 @@
         },
         {
             "path": "radio_dance_rock"
-        }        
+        },
+        {
+            "path": "radio_fusion_fm"
+        }
     ]
 }
