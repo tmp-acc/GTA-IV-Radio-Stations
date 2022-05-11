@@ -544,10 +544,6 @@
           },
           "nextFragment": [
             {
-              "fragmentTag": "news",
-              "probability": 0.4
-            },
-            {
               "fragmentTag": "track"
             }
           ]
