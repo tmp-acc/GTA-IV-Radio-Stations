@@ -901,6 +901,9 @@
         },
         {
             "path": "radio_fusion_fm"
-        }
+        },
+        {
+            "path": "radio_hardcore"
+        }        
     ]
 }

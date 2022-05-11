@@ -1,0 +1,848 @@
+{
+    "tag": "radio_hardcore",
+    "info": {
+        "genre": "Hardcore punk",
+        "logo": "radio_hardcore.png",
+        "dj": "Jimmy Gestapo",
+        "title": "Liberty City Hardcore"
+    },
+    "fileGroups": [
+        {
+            "files": [
+                {
+                    "duration": 24.85,
+                    "path": "solo/solo_08.m4a"
+                },
+                {
+                    "duration": 33.14,
+                    "path": "solo/solo_09.m4a"
+                },
+                {
+                    "duration": 29.14,
+                    "path": "solo/solo_07.m4a"
+                },
+                {
+                    "duration": 18.9,
+                    "path": "solo/solo_06.m4a"
+                },
+                {
+                    "duration": 23.94,
+                    "path": "solo/solo_10.m4a"
+                },
+                {
+                    "duration": 19.17,
+                    "path": "solo/solo_04.m4a"
+                },
+                {
+                    "duration": 23.93,
+                    "path": "solo/solo_05.m4a"
+                },
+                {
+                    "duration": 14.68,
+                    "path": "solo/solo_01.m4a"
+                },
+                {
+                    "duration": 22.56,
+                    "path": "solo/solo_02.m4a"
+                },
+                {
+                    "duration": 33.5,
+                    "path": "solo/solo_03.m4a"
+                }
+            ],
+            "tag": "mono_solo"
+        },
+        {
+            "files": [
+                {
+                    "duration": 2.86,
+                    "path": "time_morning/morning_01.m4a"
+                },
+                {
+                    "duration": 4.95,
+                    "path": "time_morning/morning_03.m4a"
+                },
+                {
+                    "duration": 4.28,
+                    "path": "time_morning/morning_02.m4a"
+                },
+                {
+                    "duration": 3.26,
+                    "path": "time_morning/morning_04.m4a"
+                }
+            ],
+            "tag": "time_morning"
+        },
+        {
+            "files": [
+                {
+                    "duration": 7.17,
+                    "path": "to_weather/to_weather_04.m4a"
+                },
+                {
+                    "duration": 5.65,
+                    "path": "to_weather/to_weather_05.m4a"
+                },
+                {
+                    "duration": 3.86,
+                    "path": "to_weather/to_weather_01.m4a"
+                },
+                {
+                    "duration": 3.29,
+                    "path": "to_weather/to_weather_02.m4a"
+                },
+                {
+                    "duration": 3.82,
+                    "path": "to_weather/to_weather_03.m4a"
+                }
+            ],
+            "tag": "to_weather"
+        },
+        {
+            "files": [
+                {
+                    "duration": 4.11,
+                    "path": "to_news/to_news_05.m4a"
+                },
+                {
+                    "duration": 3.81,
+                    "path": "to_news/to_news_04.m4a"
+                },
+                {
+                    "duration": 2.98,
+                    "path": "to_news/to_news_01.m4a"
+                },
+                {
+                    "duration": 4.33,
+                    "path": "to_news/to_news_03.m4a"
+                },
+                {
+                    "duration": 3.7,
+                    "path": "to_news/to_news_02.m4a"
+                }
+            ],
+            "tag": "to_news"
+        },
+        {
+            "files": [
+                {
+                    "duration": 9.58,
+                    "path": "general/0xd040b175.m4a"
+                },
+                {
+                    "duration": 11.47,
+                    "path": "general/0xe0dd52ae.m4a"
+                },
+                {
+                    "duration": 11.66,
+                    "path": "general/0xf1d46c9c.m4a"
+                },
+                {
+                    "duration": 9.29,
+                    "path": "general/0xe4cd591e.m4a"
+                },
+                {
+                    "duration": 12.79,
+                    "path": "general/0x9d954bf7.m4a"
+                },
+                {
+                    "duration": 4.42,
+                    "path": "general/general_25.m4a"
+                },
+                {
+                    "duration": 1.51,
+                    "path": "general/general_24.m4a"
+                },
+                {
+                    "duration": 3.35,
+                    "path": "general/general_26.m4a"
+                },
+                {
+                    "duration": 5.56,
+                    "path": "general/general_27.m4a"
+                },
+                {
+                    "duration": 10.56,
+                    "path": "general/0x7cda82aa.m4a"
+                },
+                {
+                    "duration": 8.76,
+                    "path": "general/0xf597fab3.m4a"
+                },
+                {
+                    "duration": 17.99,
+                    "path": "general/0x39e07cb3.m4a"
+                },
+                {
+                    "duration": 8.9,
+                    "path": "general/general_09.m4a"
+                },
+                {
+                    "duration": 11.11,
+                    "path": "general/0xd4223138.m4a"
+                },
+                {
+                    "duration": 13.22,
+                    "path": "general/0x71d27472.m4a"
+                },
+                {
+                    "duration": 4.87,
+                    "path": "general/0xc27a15e8.m4a"
+                },
+                {
+                    "duration": 10.26,
+                    "path": "general/general_10.m4a"
+                },
+                {
+                    "duration": 14.37,
+                    "path": "general/0xa9cf646b.m4a"
+                },
+                {
+                    "duration": 10.69,
+                    "path": "general/0xc0609045.m4a"
+                },
+                {
+                    "duration": 13.0,
+                    "path": "general/0x8e7325d7.m4a"
+                },
+                {
+                    "duration": 3.78,
+                    "path": "general/general_29.m4a"
+                },
+                {
+                    "duration": 1.78,
+                    "path": "general/general_28.m4a"
+                },
+                {
+                    "duration": 10.55,
+                    "path": "general/0x998abc0a.m4a"
+                },
+                {
+                    "duration": 11.94,
+                    "path": "general/0xc9681bc4.m4a"
+                },
+                {
+                    "duration": 19.39,
+                    "path": "general/0xd71b3f06.m4a"
+                },
+                {
+                    "duration": 12.31,
+                    "path": "general/0x82c40e79.m4a"
+                },
+                {
+                    "duration": 6.09,
+                    "path": "general/0xff348f5c.m4a"
+                },
+                {
+                    "duration": 16.79,
+                    "path": "general/0xb8f402b8.m4a"
+                },
+                {
+                    "duration": 10.18,
+                    "path": "general/0xd732bde9.m4a"
+                }
+            ],
+            "tag": "general"
+        },
+        {
+            "files": [
+                {
+                    "duration": 8.16,
+                    "path": "time_afternoon/afternoon_01.m4a"
+                },
+                {
+                    "duration": 4.85,
+                    "path": "time_afternoon/afternoon_02.m4a"
+                },
+                {
+                    "duration": 7.09,
+                    "path": "time_afternoon/afternoon_03.m4a"
+                },
+                {
+                    "duration": 4.43,
+                    "path": "time_afternoon/afternoon_04.m4a"
+                }
+            ],
+            "tag": "time_afternoon"
+        },
+        {
+            "files": [
+                {
+                    "duration": 6.38,
+                    "path": "time_night/night_01.m4a"
+                },
+                {
+                    "duration": 8.32,
+                    "path": "time_night/night_03.m4a"
+                },
+                {
+                    "duration": 7.44,
+                    "path": "time_night/night_02.m4a"
+                },
+                {
+                    "duration": 10.83,
+                    "path": "time_night/night_04.m4a"
+                }
+            ],
+            "tag": "time_night"
+        },
+        {
+            "files": [
+                {
+                    "duration": 4.8,
+                    "path": "to_ad/to_ad_03.m4a"
+                },
+                {
+                    "duration": 2.85,
+                    "path": "to_ad/to_ad_02.m4a"
+                },
+                {
+                    "duration": 5.21,
+                    "path": "to_ad/to_ad_01.m4a"
+                },
+                {
+                    "duration": 4.54,
+                    "path": "to_ad/to_ad_05.m4a"
+                },
+                {
+                    "duration": 3.43,
+                    "path": "to_ad/to_ad_04.m4a"
+                },
+                {
+                    "duration": 2.71,
+                    "path": "to_ad/to_ad_06.m4a"
+                }
+            ],
+            "tag": "to_adverts"
+        },
+        {
+            "files": [
+                {
+                    "duration": 6.03,
+                    "path": "time_evening/evening_03.m4a"
+                },
+                {
+                    "duration": 4.95,
+                    "path": "time_evening/evening_02.m4a"
+                },
+                {
+                    "duration": 5.2,
+                    "path": "time_evening/evening_01.m4a"
+                },
+                {
+                    "duration": 3.9,
+                    "path": "time_evening/evening_04.m4a"
+                }
+            ],
+            "tag": "time_evening"
+        },
+        {
+            "files": [
+                {
+                    "duration": 11.18,
+                    "path": "id/id_01.m4a"
+                },
+                {
+                    "duration": 4.17,
+                    "path": "id/id_03.m4a"
+                },
+                {
+                    "duration": 8.43,
+                    "path": "id/id_02.m4a"
+                },
+                {
+                    "duration": 8.7,
+                    "path": "id/id_06.m4a"
+                },
+                {
+                    "duration": 13.29,
+                    "path": "id/id_07.m4a"
+                },
+                {
+                    "duration": 11.25,
+                    "path": "id/id_05.m4a"
+                },
+                {
+                    "duration": 31.68,
+                    "path": "id/id_10.m4a"
+                },
+                {
+                    "duration": 12.38,
+                    "path": "id/id_04.m4a"
+                },
+                {
+                    "duration": 6.95,
+                    "path": "id/id_09.m4a"
+                },
+                {
+                    "duration": 4.21,
+                    "path": "id/id_08.m4a"
+                }
+            ],
+            "tag": "id"
+        },
+        {
+            "files": [
+                {
+                    "duration": 227.18,
+                    "path": "enforcer.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 3.97,
+                                "path": "intro/enforcer_02.m4a"
+                            },
+                            {
+                                "duration": 3.89,
+                                "path": "intro/enforcer_01.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 47.09,
+                    "path": "victiminpain.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 4.57,
+                                "path": "intro/victiminpain_01.m4a"
+                            },
+                            {
+                                "duration": 3.21,
+                                "path": "intro/victiminpain_02.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 90.71000000000001,
+                    "path": "itsthelimit.m4a"
+                },
+                {
+                    "duration": 126.53,
+                    "path": "injusticesystem.m4a"
+                },
+                {
+                    "duration": 140.57999999999998,
+                    "path": "allyourboyz.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 4.18,
+                                "path": "intro/allyourboyz_02.m4a"
+                            },
+                            {
+                                "duration": 3.83,
+                                "path": "intro/allyourboyz_01.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 170.03,
+                    "path": "backtoback.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 2.43,
+                                "path": "intro/backtoback_02.m4a"
+                            },
+                            {
+                                "duration": 4.61,
+                                "path": "intro/backtoback_01.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 104.53,
+                    "path": "dayinthelife.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 4.91,
+                                "path": "intro/dayinthelife_01.m4a"
+                            },
+                            {
+                                "duration": 3.72,
+                                "path": "intro/dayinthelife_02.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 88.13,
+                    "path": "telltale.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 3.67,
+                                "path": "intro/telltale_02.m4a"
+                            },
+                            {
+                                "duration": 5.53,
+                                "path": "intro/telltale_01.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 157.44,
+                    "path": "justcanthate.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 3.49,
+                                "path": "intro/justcanthate_01.m4a"
+                            },
+                            {
+                                "duration": 3.66,
+                                "path": "intro/justcanthate_02.m4a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "duration": 140.95,
+                    "path": "rightbrigade.m4a",
+                    "attaches": {
+                        "files": [
+                            {
+                                "duration": 5.57,
+                                "path": "intro/rightbrigade_02.m4a"
+                            },
+                            {
+                                "duration": 4.69,
+                                "path": "intro/rightbrigade_01.m4a"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "tag": "track"
+        }
+    ],
+    "playlist": {
+      "firstFragment": {
+        "fragmentTag": "id"
+      },
+      "fragments": [
+        {
+          "tag": "id",
+          "src": {
+            "type": "group",
+            "groupTag": "id"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "track",
+          "src": {
+            "type": "group",
+            "groupTag": "track"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "adverts",
+              "probability": 0.357
+            },
+            {
+              "fragmentTag": "monoSolo",
+              "probability": 0.286
+            },
+            {
+              "fragmentTag": "news",
+              "probability": 0.1
+            },
+            {
+              "fragmentTag": "weather",
+              "probability": 0.043
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ],
+          "mixins": {
+            "pos": [
+              {
+                "tag": "begin",
+                "relativeOffset": 0.03
+              },
+              {
+                "tag": "end",
+                "relativeOffset": 0.97
+              }
+            ],
+            "mix": [
+              {
+                "tag": "toNews",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_news"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "news"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "toWeather",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_weather"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "weather"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "toAdverts",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_adverts"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "adverts"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "general",
+                "src": {
+                  "type": "group",
+                  "groupTag": "general"
+                },
+                "condition": {
+                  "type": "random",
+                  "probability": 0.333
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "intro",
+                "src": {
+                  "type": "attach"
+                },
+                "condition": {
+                  "type": "random",
+                  "probability": 0.333
+                },
+                "posVariant": [
+                  {
+                    "posTag": "begin"
+                  },
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "morning",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_morning"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "5:00",
+                      "to": "12:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "afternoon",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_afternoon"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "12:01",
+                      "to": "17:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "evening",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_evening"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "17:01",
+                      "to": "21:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "night",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_night"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "21:01",
+                      "to": "4:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tag": "monoSolo",
+          "src": {
+            "type": "group",
+            "groupTag": "mono_solo"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "news",
+              "probability": 0.4
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "news",
+          "src": {
+            "type": "group",
+            "groupTag": "news"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "id",
+              "probability": 0.667
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "weather",
+          "src": {
+            "type": "group",
+            "groupTag": "weather"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "id",
+              "probability": 0.667
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "adverts",
+          "src": {
+            "type": "group",
+            "groupTag": "adverts"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        }
+      ]
+    }
+}
