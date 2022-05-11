@@ -881,5 +881,16 @@
                 "tag": "adverts"
             }
         ]
-    }
+    },
+    "stations": [
+        {
+            "path": "radio_afro_beat"
+        },
+        {
+            "path": "radio_babylon"
+        },
+        {
+            "path": "radio_classical_ambient"
+        }
+    ]
 }
