@@ -7,7 +7,7 @@ Pieces
 [✔️] radio_classical_ambient
 [✔️] radio_dance_rock
 [✔️] radio_fusion_fm
-[ ] radio_hardcore
+[✔️] radio_hardcore
 [ ] radio_jazz_nation
 [ ] radio_k109_the_studio
 [ ] radio_liberty_rock
