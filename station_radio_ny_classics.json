@@ -1,0 +1,20 @@
+{
+    "fileGroups": [
+        {
+            "files": [
+                {
+                    "duration": 1735.03,
+                    "path": "classics_mix.m4a"
+                }
+            ],
+            "tag": "track"
+        }
+    ],
+    "info": {
+        "genre": "radio_ny_classics",
+        "logo": "radio_ny_classics.png",
+        "dj": "radio_ny_classics",
+        "title": "radio_ny_classics"
+    },
+    "tag": "radio_ny_classics"
+}

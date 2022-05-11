@@ -1,0 +1,20 @@
+{
+    "fileGroups": [
+        {
+            "files": [
+                {
+                    "duration": 2497.3,
+                    "path": "ramjam_mix.m4a"
+                }
+            ],
+            "tag": "track"
+        }
+    ],
+    "info": {
+        "genre": "radio_ramjamfm",
+        "logo": "radio_ramjamfm.png",
+        "dj": "radio_ramjamfm",
+        "title": "radio_ramjamfm"
+    },
+    "tag": "radio_ramjamfm"
+}

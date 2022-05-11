@@ -3,7 +3,7 @@ Pieces
 ======
 
 [✔️] radio_afro_beat
-[ ] radio_babylon
+[✔️] radio_babylon
 [ ] radio_classical_ambient
 [ ] radio_dance_rock
 [ ] radio_fusion_fm

@@ -3,87 +3,45 @@ import os
 import re
 import subprocess
 from subprocess import call
+from tkinter.messagebox import NO
 
-SndNews = 0
-SndAdverts = 1
-SndExtratracks = 2
-SndWeather = 3
-SndSolo = 4
-SndId = 5
-SndIntro = 6
-SndOutro = 7
-SndToNews = 8
-SndToAdverts = 9
-SndToWeather = 10
-SndGeneral = 11
-SndTrack = 12
-SndTimeAfternoon = 13
-SndtimeEvening = 14
-SndtimeMorning = 15
-SndtimeNight = 16
-
-KindDesc = [
-    "news", "adverts", "extratracks", "weather", "solo", 
-    "id", "intro", "outro", "to_news", "to_adverts", 
-    "to_weather", "general", "track", "time_afternoon", "time_evening", 
+audiofile_ext = ".m4a"
+trtack_kind = "track"
+snd_kinds = [
+    trtack_kind, "news", "adverts", "extratracks", "weather", "solo", 
+    "id", "intro", "outro", "to_news", "to_ad", 
+    "to_weather", "general", "time_afternoon", "time_evening", 
     "time_morning", "time_night"
 ]
 
-
-def parseStationFilePath(path) :
-    if path.startswith("solo/") :
-        return SndSolo, path[len("solo/"):]
-    if path.startswith("id/") :
-        return SndId, path[len("id/"):]
-    if path.startswith("intro/") :
-        return SndIntro, path[len("intro/"):]
-    if path.startswith("outro/") :
-        return SndOutro, path[len("outro/"):]
-    if path.startswith("to_weather/to_weather") :
-        return SndToWeather, path[len('to_weather/'):]
-    if path.startswith("to_news/to_news") :
-        return SndToNews, path[len('to_news/'):]
-    if path.startswith("to_ad/to_ad") :
-        return SndToAdverts, path[len("to_ad/"):]
-    if path.startswith("general/") :
-        return SndGeneral, path[len("general/"):]
-    if path.startswith("time_afternoon/") :
-        return SndTimeAfternoon, path[len("time_afternoon/"):]
-    if path.startswith("time_evening/") :
-        return SndtimeEvening, path[len("time_evening/"):]
-    if path.startswith("time_morning/") :
-        return SndtimeMorning, path[len("time_morning/"):]
-    if path.startswith("time_night/") :
-        return SndtimeNight, path[len("time_night/"):]
+def get_snd_kind(path, prefix = ""): 
+    for i, kind in enumerate(snd_kinds):
+        subpath = prefix + kind + "/"
+        if path.startswith(subpath) :
+            return i, path[len(subpath):]
     if path.find("/") < 0 :
-        return SndTrack, path
+        return snd_kinds.index(trtack_kind), path
     return None, None
 
 # kind, station, name
-def getPathInfo(path):
-    if path.startswith("common/news/") :
-        return SndNews, "", path[len("common/news/"):]
-    elif path.startswith("common/adverts/") :
-        return SndAdverts, "", path[len("common/adverts/"):]
-    elif path.startswith("common/extratracks/") :
-        return SndExtratracks, "", path[len("common/extratracks/"):]
-    elif path.startswith("common/weather/") :
-        return SndWeather, "", path[len("common/weather/"):]
+def get_path_info(path):
+    common_kind, common_filename = get_snd_kind(path, prefix = "common/")
+    if common_kind is not None:
+        return common_kind, "", common_filename
     else :
         stationLen = path.find("/")
         station = path[:stationLen]
         stationFilePath = path[stationLen + 1:]
 
-        kind, filename = parseStationFilePath(stationFilePath)
+        kind, filename = get_snd_kind(stationFilePath)
 
         if kind is not None :
             return kind, station, filename
-
     return None, None, None
 
 
-def getSoundInfo(name):
-    command = "ffmpeg -i \"" + name + "\"" + " -af silencedetect=noise=0.2:d=0.3 -f null -"
+def get_sound_info(name):
+    command = "ffmpeg -i \"" + name + "\"" #  + " -af silencedetect=noise=0.2:d=0.3 -f null -"
     p = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     (std_out, std_err) = p.communicate()
     m = re.search("Duration: (\d\d):(\d\d):(\d*.\d*)+, start", std_err)
@@ -103,21 +61,21 @@ def getSoundInfo(name):
     #         sound_duration = last_silence_start
     return file_duration, sound_duration
 
-def createMetaJson(rootDir) :
+def gather_meta(rootDir) :
     res = {}
     stations = {}
     rootDirLen = len(rootDir)
     for root, dirs, files in os.walk(rootDir):
         for name in files:
             filePath = os.path.join(root, name).replace("\\", "/")
-            if not filePath.endswith('.m4a'):
+            if not filePath.endswith(audiofile_ext):
                 continue
             path = filePath[rootDirLen:]
-            kind, stationName, name = getPathInfo(path)
+            kind, stationName, name = get_path_info(path)
             if kind is not None :
-                kindDesc = KindDesc[kind]
-                print(stationName, kindDesc, name, filePath)
-                file_duration, sound_duration = getSoundInfo(filePath)
+                kindDesc = snd_kinds[kind]
+                # print(stationName, kindDesc, name, filePath)
+                file_duration, sound_duration = get_sound_info(filePath)
                 info = {"path": path, "duration": file_duration }
                 if sound_duration :
                     info ["audibleDuration"] = sound_duration
@@ -140,23 +98,103 @@ def createMetaJson(rootDir) :
     res["stations"] = stations
     return res
 
-FFMPEG_NAME = 'ffmpeg'
 
-# call([FFMPEG_NAME, "-i", RECORD_NAME, "-ss", str(from_pos), "-to", str(to_pos), "-c", "copy", "-y", CUT_NAME])
+def save_series(meta):
+    fileGroups = {}
+    fileGroups["fileGroups"] = []
+    for group_name in meta:
+        if group_name == "stations": 
+            continue
+
+        fileGroup = {}
+        fileGroup["tag"] = group_name
+        fileGroup["files"] = meta[group_name]
+        fileGroups["fileGroups"].append(fileGroup)
+
+    common = {}
+    common["common"] = fileGroups
+
+    with open("series.json", "w") as outfile:
+        json.dump(common, outfile, indent=4, separators=(',', ': '))
+
+
+def remove_path_prefix(meta, prefix): 
+    for obj in meta:
+        path = obj["path"]
+        if path.startswith(prefix):
+            obj["path"] = path[len(prefix):]
+    return meta
+
+
+def add_intro(tracks, intros):
+    # print("intros: ", intros)
+    # print("tracks: ", tracks)
 
 
 
-#ffmpeg -i audio_radio/separated/radio_06_country/you_took_all_the_ramblin_out.mp3 -af silencedetect=noise=0.4:d=0.3 -f null -
+    for track_index, track in enumerate(tracks):
+        track_info_path_start = "intro/" + track["path"][:-len(audiofile_ext)] + "_"
+        track_intros = [intro for intro in intros if intro["path"].startswith(track_info_path_start)]
 
 
-def foo() :
-    meta = createMetaJson("./")
-    with open("meta.json", "w") as outfile:
-        json.dump(meta, outfile, indent=4, separators=(',', ': '))
+        if track_intros: 
+            attaches = {}
+            attaches["files"] = track_intros
+            track["attaches"] = attaches
+            tracks[track_index] = track
 
-    #print getSoundInfo("gta5.fm/Contents/radio_01_class_rock/intro/0x0b0c2142.mp3")
-    # print getSoundInfo("gta5.fm/Contents/radio_06_country/convoy.mp3")
+    print(tracks)
+    return tracks
+
+def save_station(station, meta): 
+    result = {}
+    result["fileGroups"] = []
+    result["tag"] = station
+
+    info = {}
+    info["title"] = station
+    info["genre"] = station
+    info["logo"] = station + ".png"
+    info["dj"] = station
+
+    result["info"] = info
+
+    intro = []
+    tracks = []
+    for group_name in meta:
+        if group_name == "intro":
+            intro = remove_path_prefix(meta[group_name], prefix= station + "/")
+        elif group_name == "track":
+            tracks = remove_path_prefix(meta[group_name], prefix= station + "/")
+        else:
+            file_group = {}
+            file_group["tag"] = group_name
+            file_group["files"] = remove_path_prefix(meta[group_name], prefix= station + "/")
+            result["fileGroups"].append(file_group)
+
+    # if info:
+    print("----")
+
+    tracks_file_group = {}
+    tracks_file_group["tag"] = "track"
+    tracks_file_group["files"] = add_intro(tracks, intros= intro)
+    result["fileGroups"].append(tracks_file_group)
+
+    with open("station_" + station + ".json", "w") as outfile:
+        json.dump(result, outfile, indent=4, separators=(',', ': '))
+
+
+def save_stations(meta):
+    stations = meta["stations"]
+    for station in stations:
+        save_station(station, stations[station])
 
 
 
-foo()
+
+def do_the_harlem_shake() :
+    meta = gather_meta("./")
+    save_series(meta)
+    save_stations(meta)
+
+do_the_harlem_shake()
