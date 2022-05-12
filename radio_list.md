@@ -12,8 +12,8 @@ Pieces
 [✔️] radio_k109_the_studio
 [✔️] radio_liberty_rock
 [✔️] radio_meditation
-[ ] radio_san_juan_sounds
-[ ] radio_the_vibe
+[✔️] radio_san_juan_sounds
+[✔️] radio_the_vibe
 [ ] radio_vcfm
 [ ] radio_vladivostok
 

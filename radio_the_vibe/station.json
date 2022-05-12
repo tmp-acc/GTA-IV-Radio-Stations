@@ -1,4 +1,11 @@
 {
+    "tag": "radio_the_vibe",
+    "info": {
+        "genre": "Soul and R&B.",
+        "logo": "radio_the_vibe.png",
+        "dj": "Vaughn Harper",
+        "title": "The Vibe 98.8"
+    },
     "fileGroups": [
         {
             "files": [
@@ -47,7 +54,7 @@
                     "path": "solo/solo_03.m4a"
                 }
             ],
-            "tag": "solo"
+            "tag": "mono_solo"
         },
         {
             "files": [
@@ -290,7 +297,7 @@
                     "path": "to_ad/to_ad_04.m4a"
                 }
             ],
-            "tag": "to_ad"
+            "tag": "to_adverts"
         },
         {
             "files": [
@@ -588,11 +595,326 @@
             "tag": "track"
         }
     ],
-    "info": {
-        "genre": "radio_the_vibe",
-        "logo": "radio_the_vibe.png",
-        "dj": "radio_the_vibe",
-        "title": "radio_the_vibe"
-    },
-    "tag": "radio_the_vibe"
+    "playlist": {
+      "firstFragment": {
+        "fragmentTag": "id"
+      },
+      "fragments": [
+        {
+          "tag": "id",
+          "src": {
+            "type": "group",
+            "groupTag": "id"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "track",
+          "src": {
+            "type": "group",
+            "groupTag": "track"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "adverts",
+              "probability": 0.357
+            },
+            {
+              "fragmentTag": "monoSolo",
+              "probability": 0.286
+            },
+            {
+              "fragmentTag": "news",
+              "probability": 0.1
+            },
+            {
+              "fragmentTag": "weather",
+              "probability": 0.043
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ],
+          "mixins": {
+            "pos": [
+              {
+                "tag": "begin",
+                "relativeOffset": 0.03
+              },
+              {
+                "tag": "end",
+                "relativeOffset": 0.97
+              }
+            ],
+            "mix": [
+              {
+                "tag": "toNews",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_news"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "news"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "toWeather",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_weather"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "weather"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "toAdverts",
+                "src": {
+                  "type": "group",
+                  "groupTag": "to_adverts"
+                },
+                "condition": {
+                  "type": "nextFragment",
+                  "fragmentTag": "adverts"
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "general",
+                "src": {
+                  "type": "group",
+                  "groupTag": "general"
+                },
+                "condition": {
+                  "type": "random",
+                  "probability": 0.333
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "intro",
+                "src": {
+                  "type": "attach"
+                },
+                "condition": {
+                  "type": "random",
+                  "probability": 0.333
+                },
+                "posVariant": [
+                  {
+                    "posTag": "begin"
+                  },
+                  {
+                    "posTag": "end"
+                  }
+                ]
+              },
+              {
+                "tag": "morning",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_morning"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "5:00",
+                      "to": "12:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "afternoon",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_afternoon"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "12:01",
+                      "to": "17:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "evening",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_evening"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "17:01",
+                      "to": "21:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              },
+              {
+                "tag": "night",
+                "src": {
+                  "type": "group",
+                  "groupTag": "time_night"
+                },
+                "condition": {
+                  "type": "groupAnd",
+                  "condition": [
+                    {
+                      "type": "random",
+                      "probability": 0.333
+                    },
+                    {
+                      "type": "timeInterval",
+                      "from": "21:01",
+                      "to": "4:00"
+                    }
+                  ]
+                },
+                "posVariant": [
+                  {
+                    "posTag": "end"
+                  },
+                  {
+                    "posTag": "begin"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tag": "monoSolo",
+          "src": {
+            "type": "group",
+            "groupTag": "mono_solo"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "news",
+              "probability": 0.4
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "news",
+          "src": {
+            "type": "group",
+            "groupTag": "news"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "id",
+              "probability": 0.667
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "weather",
+          "src": {
+            "type": "group",
+            "groupTag": "weather"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "id",
+              "probability": 0.667
+            },
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        },
+        {
+          "tag": "adverts",
+          "src": {
+            "type": "group",
+            "groupTag": "adverts"
+          },
+          "nextFragment": [
+            {
+              "fragmentTag": "track"
+            }
+          ]
+        }
+      ]
+    }
 }
