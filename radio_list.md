@@ -14,8 +14,8 @@ Pieces
 [✔️] radio_meditation
 [✔️] radio_san_juan_sounds
 [✔️] radio_the_vibe
-[ ] radio_vcfm
-[ ] radio_vladivostok
+[✔️] radio_vcfm
+[✔️] radio_vladivostok
 
 One file
 ========

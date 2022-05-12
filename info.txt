@@ -22,6 +22,6 @@ radio_ramjamfm              radio_ramjamfm.png          500x231     RamJam FM
 radio_san_juan_sounds       radio_san_juan_sounds.png   500x341     San Juan Sounds
 radio_the_vibe              radio_the_vibe.png          700x356     The Vibe 98.8
 radio_vcfm                  radio_vcfm.png              300x265     Vice City FM
-radio_vladivostok           radio_vladivostok.png       500x286     Vladivostok FM  
+radio_vladivostok           radio_vladivostok.png       500x286     Vladivostok FM
 radio_weather               --                          --          --
 radio_wktt                  radio_wktt.png              500x416     WKTT Radio
