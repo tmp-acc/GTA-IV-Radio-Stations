@@ -10,7 +10,7 @@ Pieces
 [✔️] radio_hardcore
 [✔️] radio_jazz_nation
 [✔️] radio_k109_the_studio
-[ ] radio_liberty_rock
+[✔️] radio_liberty_rock
 [ ] radio_meditation
 [ ] radio_san_juan_sounds
 [ ] radio_the_vibe
