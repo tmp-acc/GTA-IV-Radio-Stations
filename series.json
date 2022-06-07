@@ -901,6 +901,9 @@
     },
     {
       "path": "radio_ramjamfm"
+    },
+    {
+      "path": "radio_lazlow"
     }
   ]
 }
