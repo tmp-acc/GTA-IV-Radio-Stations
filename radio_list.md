@@ -29,7 +29,7 @@ One file
 Big chunks
 ==========
 
-[ ] radio_lazlow
+[✔️] radio_lazlow
 [ ] radio_plr
 [ ] radio_wktt
 

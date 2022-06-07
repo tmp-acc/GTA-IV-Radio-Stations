@@ -904,6 +904,9 @@
     },
     {
       "path": "radio_lazlow"
+    },
+    {
+      "path": "radio_plr"
     }
   ]
 }

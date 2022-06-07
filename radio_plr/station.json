@@ -1,0 +1,146 @@
+{
+  "tag": "radio_plr",
+  "info": {
+    "genre": "Talk Radio",
+    "logo": "radio_plr.png",
+    "dj": "Various host",
+    "title": "Public Liberty Radio"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "duration": 11.31,
+          "path": "id/id_01.m4a"
+        },
+        {
+          "duration": 12.53,
+          "path": "id/id_03.m4a"
+        },
+        {
+          "duration": 12.46,
+          "path": "id/id_02.m4a"
+        },
+        {
+          "duration": 11.73,
+          "path": "id/id_06.m4a"
+        },
+        {
+          "duration": 13.1,
+          "path": "id/id_07.m4a"
+        },
+        {
+          "duration": 9.55,
+          "path": "id/id_05.m4a"
+        },
+        {
+          "duration": 11.27,
+          "path": "id/id_04.m4a"
+        }
+      ],
+      "tag": "id"
+    },
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "duration": 940.79,
+          "path": "intellagenda.m4a"
+        },
+        {
+          "tag": "p2",
+          "duration": 1078.34,
+          "path": "the_seance.m4a"
+        },
+        {
+          "tag": "p3",
+          "duration": 1023.32,
+          "path": "pacemaker.m4a"
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "id1"
+    },
+    "fragments": [
+      {
+        "tag": "id1",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part1"
+          }
+        ]
+      },
+      {
+        "tag": "part1",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id2"
+          }
+        ]
+      },
+      {
+        "tag": "id2",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part2"
+          }
+        ]
+      },
+      {
+        "tag": "part2",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p2"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id3"
+          }
+        ]
+      },
+      {
+        "tag": "id3",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part3"
+          }
+        ]
+      },
+      {
+        "tag": "part3",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p3"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id1"
+          }
+        ]
+      }
+    ]
+  }
+}
