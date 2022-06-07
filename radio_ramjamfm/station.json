@@ -1,0 +1,41 @@
+{
+  "tag": "radio_ramjamfm",
+  "info": {
+    "genre": "Reggae",
+    "logo": "radio_ramjamfm.png",
+    "dj": "David Rodigan",
+    "title": "RamJam FM"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "duration": 2497.3,
+          "path": "ramjam_mix.m4a"
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "track"
+    },
+    "fragments": [
+      {
+        "tag": "track",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      }
+    ]
+  }
+}

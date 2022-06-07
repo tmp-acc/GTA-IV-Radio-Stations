@@ -16,7 +16,7 @@ radio_lazlow                radio_lazlow.png            500x236     Integrity 2.
 radio_liberty_rock          radio_liberty_rock.png      500x388     Liberty Rock Radio
 radio_meditation            radio_meditation.png        500x508     Self-Actualization FM
 radio_news                  --                          --          --
-radio_ny_classics           radio_ny_classics.png       700x205      The Classics 104.1
+radio_ny_classics           radio_ny_classics.png       700x205     The Classics 104.1
 radio_plr                   radio_plr.png               500x412     Public Liberty Radio
 radio_ramjamfm              radio_ramjamfm.png          500x231     RamJam FM
 radio_san_juan_sounds       radio_san_juan_sounds.png   500x341     San Juan Sounds

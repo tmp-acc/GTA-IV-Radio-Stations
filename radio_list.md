@@ -24,7 +24,7 @@ One file
 [✔️] radio_bobby_konders
 [✔️] radio_dance_mix
 [✔️] radio_ny_classics
-[ ] radio_ramjamfm
+[✔️] radio_ramjamfm
 
 Big chunks
 ==========
