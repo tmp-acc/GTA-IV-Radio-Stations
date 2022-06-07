@@ -1,0 +1,41 @@
+{
+  "tag": "radio_ny_classics",
+  "info": {
+    "genre": "Classic Hip-Hop",
+    "logo": "radio_ny_classics.png",
+    "dj": "DJ Premier",
+    "title": "The Classics 104.1"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "duration": 1735.03,
+          "path": "classics_mix.m4a"
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "track"
+    },
+    "fragments": [
+      {
+        "tag": "track",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      }
+    ]
+  }
+}
