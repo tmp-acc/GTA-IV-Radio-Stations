@@ -888,46 +888,10 @@
     },
     "stations": [
         {
-            "path": "radio_afro_beat"
-        },
-        {
-            "path": "radio_babylon"
-        },
-        {
-            "path": "radio_classical_ambient"
-        },
-        {
-            "path": "radio_dance_rock"
-        },
-        {
-            "path": "radio_fusion_fm"
-        },
-        {
-            "path": "radio_hardcore"
-        },
-        {
-            "path": "radio_jazz_nation"
-        },
-        {
-            "path": "radio_k109_the_studio"
-        },
-        {
-            "path": "radio_liberty_rock"
-        },
-        {
-            "path": "radio_meditation"
-        },
-        {
-            "path": "radio_san_juan_sounds"
-        },
-        {
-            "path": "radio_the_vibe"
-        },
-        {
-            "path": "radio_vcfm"
-        },
-        {
             "path": "radio_vladivostok"
+        },
+        {
+            "path": "radio_beat_95"
         }
     ]
 }
