@@ -1,0 +1,41 @@
+{
+  "tag": "radio_dance_mix",
+  "info": {
+    "genre": "Electro-House",
+    "logo": "radio_dance_mix.png",
+    "dj": "François K",
+    "title": "Electro-Choc"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "duration": 2684.8,
+          "path": "fk.m4a"
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "track"
+    },
+    "fragments": [
+      {
+        "tag": "track",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      }
+    ]
+  }
+}
