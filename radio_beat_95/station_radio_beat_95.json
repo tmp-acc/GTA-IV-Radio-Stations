@@ -1,0 +1,41 @@
+{
+  "tag": "radio_beat_95",
+  "info": {
+    "genre": "Contemporary Hip-Hop",
+    "logo": "radio_beat_95.png",
+    "dj": "DJ Mister Cee and DJ Green",
+    "title": "The Beat 102.7"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "path": "beat.m4a",
+          "duration": 2794.52
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "track"
+    },
+    "fragments": [
+      {
+        "tag": "track",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      }
+    ]
+  }
+}
