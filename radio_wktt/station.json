@@ -1,37 +1,57 @@
 {
-  "tag": "radio_lazlow",
+  "tag": "radio_wktt",
   "info": {
     "genre": "Talk Radio",
-    "logo": "radio_lazlow.png",
-    "dj": "Lazlow Jones",
-    "title": "Integrity 2.0"
+    "logo": "radio_wktt.png",
+    "dj": "Various host",
+    "title": "WKTT Radio"
   },
   "fileGroups": [
     {
       "files": [
         {
-          "duration": 20.59,
+          "duration": 10.8,
           "path": "id/id_01.m4a"
         },
         {
-          "duration": 8.52,
+          "duration": 7.7,
           "path": "id/id_03.m4a"
         },
         {
-          "duration": 9.55,
+          "duration": 15.57,
           "path": "id/id_02.m4a"
         },
         {
-          "duration": 14.68,
+          "duration": 7.44,
           "path": "id/id_06.m4a"
         },
         {
-          "duration": 16.88,
+          "duration": 15.8,
+          "path": "id/id_07.m4a"
+        },
+        {
+          "duration": 8.31,
           "path": "id/id_05.m4a"
         },
         {
-          "duration": 7.07,
+          "duration": 10.48,
+          "path": "id/id_11.m4a"
+        },
+        {
+          "duration": 10.22,
+          "path": "id/id_10.m4a"
+        },
+        {
+          "duration": 8.51,
           "path": "id/id_04.m4a"
+        },
+        {
+          "duration": 7.91,
+          "path": "id/id_09.m4a"
+        },
+        {
+          "duration": 9.15,
+          "path": "id/id_08.m4a"
         }
       ],
       "tag": "id"
@@ -39,24 +59,34 @@
     {
       "files": [
         {
-          "tag": "p3",
-          "duration": 394.48,
-          "path": "integrity_03.m4a"
-        },
-        {
           "tag": "p2",
-          "duration": 445.33,
-          "path": "integrity_02.m4a"
+          "duration": 428.82,
+          "path": "2_fizz_1.m4a"
         },
         {
-          "tag": "p1",
-          "duration": 495.61,
-          "path": "integrity_01.m4a"
+          "tag": "p3",
+          "duration": 414.4,
+          "path": "3_conservative_1.m4a"
+        },
+        {
+          "tag": "p5",
+          "duration": 373.07,
+          "path": "5_fizz_2.m4a"
         },
         {
           "tag": "p4",
-          "duration": 152.94,
-          "path": "integrity_04.m4a"
+          "duration": 517.74,
+          "path": "4_unjust_2.m4a"
+        },
+        {
+          "tag": "p6",
+          "duration": 679.94,
+          "path": "6_conservative_3.m4a"
+        },
+        {
+          "tag": "p1",
+          "duration": 547.26,
+          "path": "1_unjust_1.m4a"
         }
       ],
       "tag": "track"
@@ -160,6 +190,56 @@
           "type": "file",
           "groupTag": "track",
           "fileTag": "p4"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id5"
+          }
+        ]
+      },
+      {
+        "tag": "id5",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part5"
+          }
+        ]
+      },
+      {
+        "tag": "part5",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p5"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "id6"
+          }
+        ]
+      },
+      {
+        "tag": "id6",
+        "src": {
+          "type": "group",
+          "groupTag": "id"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "part6"
+          }
+        ]
+      },
+      {
+        "tag": "part6",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p6"
         },
         "nextFragment": [
           {

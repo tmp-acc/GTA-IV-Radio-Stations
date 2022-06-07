@@ -907,6 +907,9 @@
     },
     {
       "path": "radio_plr"
+    },
+    {
+      "path": "radio_wktt"
     }
   ]
 }
