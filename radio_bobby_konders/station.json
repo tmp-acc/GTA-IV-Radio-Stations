@@ -1,0 +1,41 @@
+{
+  "tag": "radio_bobby_konders",
+  "info": {
+    "genre": "Dancehall",
+    "logo": "radio_bobby_konders.png",
+    "dj": "Bobby Konders",
+    "title": "Massive B Soundsystem 96.9"
+  },
+  "fileGroups": [
+    {
+      "files": [
+        {
+          "tag": "p1",
+          "duration": 1958.36,
+          "path": "massiveb_mix.m4a"
+        }
+      ],
+      "tag": "track"
+    }
+  ],
+  "playlist": {
+    "firstFragment": {
+      "fragmentTag": "track"
+    },
+    "fragments": [
+      {
+        "tag": "track",
+        "src": {
+          "type": "file",
+          "groupTag": "track",
+          "fileTag": "p1"
+        },
+        "nextFragment": [
+          {
+            "fragmentTag": "track"
+          }
+        ]
+      }
+    ]
+  }
+}

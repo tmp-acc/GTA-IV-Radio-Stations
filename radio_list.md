@@ -20,8 +20,8 @@ Pieces
 One file
 ========
 
-[ ] radio_beat_95
-[ ] radio_bobby_konders
+[✔️] radio_beat_95
+[✔️] radio_bobby_konders
 [ ] radio_dance_mix
 [ ] radio_ny_classics
 [ ] radio_ramjamfm

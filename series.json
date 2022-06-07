@@ -1,897 +1,897 @@
 {
-    "info": {
-        "title": "GTA IV Radio",
-        "logo": "gta_iv.png"
-    },
-    "common": {
-        "fileGroups": [
-            {
-                "files": [
-                    {
-                        "duration": 105.89,
-                        "path": "common/news/news_45.m4a"
-                    },
-                    {
-                        "duration": 59.67,
-                        "path": "common/news/news_51.m4a"
-                    },
-                    {
-                        "duration": 1.6,
-                        "path": "common/news/news_50.m4a"
-                    },
-                    {
-                        "duration": 99.34,
-                        "path": "common/news/news_44.m4a"
-                    },
-                    {
-                        "duration": 66.13,
-                        "path": "common/news/news_52.m4a"
-                    },
-                    {
-                        "duration": 118.22999999999999,
-                        "path": "common/news/news_46.m4a"
-                    },
-                    {
-                        "duration": 77.06,
-                        "path": "common/news/news_47.m4a"
-                    },
-                    {
-                        "duration": 73.63,
-                        "path": "common/news/news_53.m4a"
-                    },
-                    {
-                        "duration": 63.62,
-                        "path": "common/news/news_57.m4a"
-                    },
-                    {
-                        "duration": 79.59,
-                        "path": "common/news/news_43.m4a"
-                    },
-                    {
-                        "duration": 103.37,
-                        "path": "common/news/news_42.m4a"
-                    },
-                    {
-                        "duration": 72.09,
-                        "path": "common/news/news_56.m4a"
-                    },
-                    {
-                        "duration": 90.22,
-                        "path": "common/news/news_40.m4a"
-                    },
-                    {
-                        "duration": 85.28999999999999,
-                        "path": "common/news/news_54.m4a"
-                    },
-                    {
-                        "duration": 64.9,
-                        "path": "common/news/news_68.m4a"
-                    },
-                    {
-                        "duration": 65.9,
-                        "path": "common/news/news_69.m4a"
-                    },
-                    {
-                        "duration": 57.9,
-                        "path": "common/news/news_55.m4a"
-                    },
-                    {
-                        "duration": 74.55,
-                        "path": "common/news/news_41.m4a"
-                    },
-                    {
-                        "duration": 97.4,
-                        "path": "common/news/news_26.m4a"
-                    },
-                    {
-                        "duration": 75.7,
-                        "path": "common/news/news_32.m4a"
-                    },
-                    {
-                        "duration": 66.08,
-                        "path": "common/news/news_33.m4a"
-                    },
-                    {
-                        "duration": 89.4,
-                        "path": "common/news/news_27.m4a"
-                    },
-                    {
-                        "duration": 87.64,
-                        "path": "common/news/news_19.m4a"
-                    },
-                    {
-                        "duration": 75.21000000000001,
-                        "path": "common/news/news_31.m4a"
-                    },
-                    {
-                        "duration": 65.47,
-                        "path": "common/news/news_25.m4a"
-                    },
-                    {
-                        "duration": 70.53,
-                        "path": "common/news/news_24.m4a"
-                    },
-                    {
-                        "duration": 98.68,
-                        "path": "common/news/news_30.m4a"
-                    },
-                    {
-                        "duration": 82.57,
-                        "path": "common/news/news_18.m4a"
-                    },
-                    {
-                        "duration": 78.62,
-                        "path": "common/news/news_34.m4a"
-                    },
-                    {
-                        "duration": 87.33,
-                        "path": "common/news/news_20.m4a"
-                    },
-                    {
-                        "duration": 94.86,
-                        "path": "common/news/news_08.m4a"
-                    },
-                    {
-                        "duration": 83.22,
-                        "path": "common/news/news_09.m4a"
-                    },
-                    {
-                        "duration": 75.93,
-                        "path": "common/news/news_21.m4a"
-                    },
-                    {
-                        "duration": 84.09,
-                        "path": "common/news/news_35.m4a"
-                    },
-                    {
-                        "duration": 74.96000000000001,
-                        "path": "common/news/news_23.m4a"
-                    },
-                    {
-                        "duration": 96.72999999999999,
-                        "path": "common/news/news_37.m4a"
-                    },
-                    {
-                        "duration": 70.64,
-                        "path": "common/news/news_36.m4a"
-                    },
-                    {
-                        "duration": 86.92,
-                        "path": "common/news/news_22.m4a"
-                    },
-                    {
-                        "duration": 97.97999999999999,
-                        "path": "common/news/news_07.m4a"
-                    },
-                    {
-                        "duration": 112.58,
-                        "path": "common/news/news_13.m4a"
-                    },
-                    {
-                        "duration": 102.47999999999999,
-                        "path": "common/news/news_12.m4a"
-                    },
-                    {
-                        "duration": 93.91,
-                        "path": "common/news/news_06.m4a"
-                    },
-                    {
-                        "duration": 95.66,
-                        "path": "common/news/news_38.m4a"
-                    },
-                    {
-                        "duration": 89.73,
-                        "path": "common/news/news_10.m4a"
-                    },
-                    {
-                        "duration": 62.88,
-                        "path": "common/news/news_04.m4a"
-                    },
-                    {
-                        "duration": 94.81,
-                        "path": "common/news/news_05.m4a"
-                    },
-                    {
-                        "duration": 78.32,
-                        "path": "common/news/news_11.m4a"
-                    },
-                    {
-                        "duration": 84.3,
-                        "path": "common/news/news_39.m4a"
-                    },
-                    {
-                        "duration": 104.93,
-                        "path": "common/news/news_15.m4a"
-                    },
-                    {
-                        "duration": 75.18,
-                        "path": "common/news/news_01.m4a"
-                    },
-                    {
-                        "duration": 88.81,
-                        "path": "common/news/news_29.m4a"
-                    },
-                    {
-                        "duration": 81.73,
-                        "path": "common/news/news_28.m4a"
-                    },
-                    {
-                        "duration": 89.86,
-                        "path": "common/news/news_14.m4a"
-                    },
-                    {
-                        "duration": 84.76,
-                        "path": "common/news/news_02.m4a"
-                    },
-                    {
-                        "duration": 75.41,
-                        "path": "common/news/news_16.m4a"
-                    },
-                    {
-                        "duration": 60.11,
-                        "path": "common/news/news_17.m4a"
-                    },
-                    {
-                        "duration": 126.08,
-                        "path": "common/news/news_03.m4a"
-                    },
-                    {
-                        "duration": 71.37,
-                        "path": "common/news/news_58.m4a"
-                    },
-                    {
-                        "duration": 79.7,
-                        "path": "common/news/news_64.m4a"
-                    },
-                    {
-                        "duration": 64.51,
-                        "path": "common/news/news_70.m4a"
-                    },
-                    {
-                        "duration": 59.74,
-                        "path": "common/news/news_65.m4a"
-                    },
-                    {
-                        "duration": 57.17,
-                        "path": "common/news/news_59.m4a"
-                    },
-                    {
-                        "duration": 69.25,
-                        "path": "common/news/news_67.m4a"
-                    },
-                    {
-                        "duration": 51.84,
-                        "path": "common/news/news_66.m4a"
-                    },
-                    {
-                        "duration": 68.93,
-                        "path": "common/news/news_62.m4a"
-                    },
-                    {
-                        "duration": 57.66,
-                        "path": "common/news/news_63.m4a"
-                    },
-                    {
-                        "duration": 54.82,
-                        "path": "common/news/news_61.m4a"
-                    },
-                    {
-                        "duration": 1.6,
-                        "path": "common/news/news_49.m4a"
-                    },
-                    {
-                        "duration": 97.35,
-                        "path": "common/news/news_48.m4a"
-                    },
-                    {
-                        "duration": 55.21,
-                        "path": "common/news/news_60.m4a"
-                    }
-                ],
-                "tag": "news"
-            },
-            {
-                "files": [
-                    {
-                        "duration": 14.75,
-                        "path": "common/weather/wind_08.m4a"
-                    },
-                    {
-                        "duration": 15.71,
-                        "path": "common/weather/sun_08.m4a"
-                    },
-                    {
-                        "duration": 10.47,
-                        "path": "common/weather/sun_09.m4a"
-                    },
-                    {
-                        "duration": 16.68,
-                        "path": "common/weather/wind_09.m4a"
-                    },
-                    {
-                        "duration": 12.52,
-                        "path": "common/weather/cloud_09.m4a"
-                    },
-                    {
-                        "duration": 9.1,
-                        "path": "common/weather/cloud_08.m4a"
-                    },
-                    {
-                        "duration": 12.05,
-                        "path": "common/weather/rain_01.m4a"
-                    },
-                    {
-                        "duration": 6.32,
-                        "path": "common/weather/rain_02.m4a"
-                    },
-                    {
-                        "duration": 8.75,
-                        "path": "common/weather/rain_03.m4a"
-                    },
-                    {
-                        "duration": 12.31,
-                        "path": "common/weather/rain_07.m4a"
-                    },
-                    {
-                        "duration": 10.25,
-                        "path": "common/weather/fog_08.m4a"
-                    },
-                    {
-                        "duration": 14.44,
-                        "path": "common/weather/fog_09.m4a"
-                    },
-                    {
-                        "duration": 13.55,
-                        "path": "common/weather/rain_06.m4a"
-                    },
-                    {
-                        "duration": 13.21,
-                        "path": "common/weather/rain_10.m4a"
-                    },
-                    {
-                        "duration": 12.94,
-                        "path": "common/weather/rain_04.m4a"
-                    },
-                    {
-                        "duration": 10.21,
-                        "path": "common/weather/rain_05.m4a"
-                    },
-                    {
-                        "duration": 8.75,
-                        "path": "common/weather/rain_11.m4a"
-                    },
-                    {
-                        "duration": 8.77,
-                        "path": "common/weather/rain_08.m4a"
-                    },
-                    {
-                        "duration": 11.58,
-                        "path": "common/weather/fog_07.m4a"
-                    },
-                    {
-                        "duration": 14.42,
-                        "path": "common/weather/fog_06.m4a"
-                    },
-                    {
-                        "duration": 6.98,
-                        "path": "common/weather/fog_12.m4a"
-                    },
-                    {
-                        "duration": 12.11,
-                        "path": "common/weather/rain_09.m4a"
-                    },
-                    {
-                        "duration": 17.87,
-                        "path": "common/weather/fog_04.m4a"
-                    },
-                    {
-                        "duration": 11.95,
-                        "path": "common/weather/fog_10.m4a"
-                    },
-                    {
-                        "duration": 16.79,
-                        "path": "common/weather/fog_11.m4a"
-                    },
-                    {
-                        "duration": 10.71,
-                        "path": "common/weather/fog_05.m4a"
-                    },
-                    {
-                        "duration": 15.82,
-                        "path": "common/weather/fog_01.m4a"
-                    },
-                    {
-                        "duration": 12.42,
-                        "path": "common/weather/fog_02.m4a"
-                    },
-                    {
-                        "duration": 9.67,
-                        "path": "common/weather/fog_03.m4a"
-                    },
-                    {
-                        "duration": 15.44,
-                        "path": "common/weather/cloud_03.m4a"
-                    },
-                    {
-                        "duration": 6.74,
-                        "path": "common/weather/wind_01.m4a"
-                    },
-                    {
-                        "duration": 15.57,
-                        "path": "common/weather/sun_01.m4a"
-                    },
-                    {
-                        "duration": 11.62,
-                        "path": "common/weather/cloud_02.m4a"
-                    },
-                    {
-                        "duration": 12.65,
-                        "path": "common/weather/wind_02.m4a"
-                    },
-                    {
-                        "duration": 17.15,
-                        "path": "common/weather/sun_02.m4a"
-                    },
-                    {
-                        "duration": 10.77,
-                        "path": "common/weather/sun_03.m4a"
-                    },
-                    {
-                        "duration": 15.83,
-                        "path": "common/weather/wind_03.m4a"
-                    },
-                    {
-                        "duration": 12.04,
-                        "path": "common/weather/cloud_01.m4a"
-                    },
-                    {
-                        "duration": 10.75,
-                        "path": "common/weather/cloud_05.m4a"
-                    },
-                    {
-                        "duration": 8.31,
-                        "path": "common/weather/cloud_11.m4a"
-                    },
-                    {
-                        "duration": 10.38,
-                        "path": "common/weather/wind_07.m4a"
-                    },
-                    {
-                        "duration": 13.17,
-                        "path": "common/weather/sun_07.m4a"
-                    },
-                    {
-                        "duration": 10.46,
-                        "path": "common/weather/sun_06.m4a"
-                    },
-                    {
-                        "duration": 10.95,
-                        "path": "common/weather/sun_12.m4a"
-                    },
-                    {
-                        "duration": 13.27,
-                        "path": "common/weather/wind_06.m4a"
-                    },
-                    {
-                        "duration": 9.87,
-                        "path": "common/weather/cloud_10.m4a"
-                    },
-                    {
-                        "duration": 10.74,
-                        "path": "common/weather/cloud_04.m4a"
-                    },
-                    {
-                        "duration": 15.58,
-                        "path": "common/weather/cloud_06.m4a"
-                    },
-                    {
-                        "duration": 10.06,
-                        "path": "common/weather/wind_10.m4a"
-                    },
-                    {
-                        "duration": 12.04,
-                        "path": "common/weather/wind_04.m4a"
-                    },
-                    {
-                        "duration": 13.1,
-                        "path": "common/weather/sun_04.m4a"
-                    },
-                    {
-                        "duration": 12.8,
-                        "path": "common/weather/sun_10.m4a"
-                    },
-                    {
-                        "duration": 8.56,
-                        "path": "common/weather/sun_11.m4a"
-                    },
-                    {
-                        "duration": 11.36,
-                        "path": "common/weather/sun_05.m4a"
-                    },
-                    {
-                        "duration": 11.03,
-                        "path": "common/weather/wind_05.m4a"
-                    },
-                    {
-                        "duration": 6.4,
-                        "path": "common/weather/wind_11.m4a"
-                    },
-                    {
-                        "duration": 15.17,
-                        "path": "common/weather/cloud_07.m4a"
-                    }
-                ],
-                "tag": "weather"
-            },
-            {
-                "files": [
-                    {
-                        "duration": 54.7,
-                        "path": "common/adverts/ad012_scooter1_trans.m4a"
-                    },
-                    {
-                        "duration": 48.6,
-                        "path": "common/adverts/ad005_track_beac.m4a"
-                    },
-                    {
-                        "duration": 38.2,
-                        "path": "common/adverts/ad043_babies_3.m4a"
-                    },
-                    {
-                        "duration": 57.36,
-                        "path": "common/adverts/ad035_tophooker.m4a"
-                    },
-                    {
-                        "duration": 45.58,
-                        "path": "common/adverts/ad029_nuca_2.m4a"
-                    },
-                    {
-                        "duration": 29.84,
-                        "path": "common/adverts/ad062_sciencecrime_3.m4a"
-                    },
-                    {
-                        "duration": 49.02,
-                        "path": "common/adverts/ad065_waningwithstars_2.m4a"
-                    },
-                    {
-                        "duration": 20.38,
-                        "path": "common/adverts/ad091_fleeca_mom.m4a"
-                    },
-                    {
-                        "duration": 47.23,
-                        "path": "common/adverts/ad039_vipringtone_01.m4a"
-                    },
-                    {
-                        "duration": 43.88,
-                        "path": "common/adverts/ad061_sciencecrime_2.m4a"
-                    },
-                    {
-                        "duration": 29.19,
-                        "path": "common/adverts/ad049_whiz_flip.m4a"
-                    },
-                    {
-                        "duration": 33.84,
-                        "path": "common/adverts/ad084_hamster_harem.m4a"
-                    },
-                    {
-                        "duration": 38.1,
-                        "path": "common/adverts/ad042_babies_2.m4a"
-                    },
-                    {
-                        "duration": 55.33,
-                        "path": "common/adverts/ad088_civilservice.m4a"
-                    },
-                    {
-                        "duration": 50.14,
-                        "path": "common/adverts/ad001_anime1_mchbtt.m4a"
-                    },
-                    {
-                        "duration": 34.38,
-                        "path": "common/adverts/ad073_cryogenics.m4a"
-                    },
-                    {
-                        "duration": 61.09,
-                        "path": "common/adverts/ad017_electrolyte.m4a"
-                    },
-                    {
-                        "duration": 49.83,
-                        "path": "common/adverts/ad022_eugen1_design.m4a"
-                    },
-                    {
-                        "duration": 34.4,
-                        "path": "common/adverts/ad015_alcopatch.m4a"
-                    },
-                    {
-                        "duration": 65.22,
-                        "path": "common/adverts/ad019_elcamuchoroboto.m4a"
-                    },
-                    {
-                        "duration": 38.36,
-                        "path": "common/adverts/ad025_the_horn.m4a"
-                    },
-                    {
-                        "duration": 54.36,
-                        "path": "common/adverts/ad077_jon_hunter_1.m4a"
-                    },
-                    {
-                        "duration": 37.04,
-                        "path": "common/adverts/ad093_zit.m4a"
-                    },
-                    {
-                        "duration": 29.18,
-                        "path": "common/adverts/ad006_track_beac2.m4a"
-                    },
-                    {
-                        "duration": 48.23,
-                        "path": "common/adverts/ad072_brucie_2.m4a"
-                    },
-                    {
-                        "duration": 19.16,
-                        "path": "common/adverts/ad090_fleeca_chop.m4a"
-                    },
-                    {
-                        "duration": 33.78,
-                        "path": "common/adverts/ad046_bittersweet_baseball.m4a"
-                    },
-                    {
-                        "duration": 59.17,
-                        "path": "common/adverts/ad026_carbon_date.m4a"
-                    },
-                    {
-                        "duration": 38.33,
-                        "path": "common/adverts/ad080_mike_graves_1.m4a"
-                    },
-                    {
-                        "duration": 57.22,
-                        "path": "common/adverts/ad014_scooter3_evolutn.m4a"
-                    },
-                    {
-                        "duration": 16.57,
-                        "path": "common/adverts/ad074_jeremy_promo.m4a"
-                    },
-                    {
-                        "duration": 47.66,
-                        "path": "common/adverts/ad002_anime2_robtbb.m4a"
-                    },
-                    {
-                        "duration": 62.58,
-                        "path": "common/adverts/ad030_russian_excelsior.m4a"
-                    },
-                    {
-                        "duration": 53.57,
-                        "path": "common/adverts/ad054_psychic.m4a"
-                    },
-                    {
-                        "duration": 36.37,
-                        "path": "common/adverts/ad064_viginsurance.m4a"
-                    },
-                    {
-                        "duration": 30.19,
-                        "path": "common/adverts/ad079_poker_promo.m4a"
-                    },
-                    {
-                        "duration": 39.44,
-                        "path": "common/adverts/ad008_mas_fuego.m4a"
-                    },
-                    {
-                        "duration": 33.14,
-                        "path": "common/adverts/ad055_waning_stars_boyband.m4a"
-                    },
-                    {
-                        "duration": 60.51,
-                        "path": "common/adverts/ad057_male_aromatherapy.m4a"
-                    },
-                    {
-                        "duration": 34.01,
-                        "path": "common/adverts/ad081_mike_graves_2.m4a"
-                    },
-                    {
-                        "duration": 60.08,
-                        "path": "common/adverts/ad018_al_dentes.m4a"
-                    },
-                    {
-                        "duration": 48.91,
-                        "path": "common/adverts/ad087_suburbs.m4a"
-                    },
-                    {
-                        "duration": 58.89,
-                        "path": "common/adverts/ad036_tophooker2_revised.m4a"
-                    },
-                    {
-                        "duration": 57.52,
-                        "path": "common/adverts/ad010_mummific1.m4a"
-                    },
-                    {
-                        "duration": 62.24,
-                        "path": "common/adverts/ad031_im_rich.m4a"
-                    },
-                    {
-                        "duration": 58.94,
-                        "path": "common/adverts/ad047_excelsior_spanish.m4a"
-                    },
-                    {
-                        "duration": 51.08,
-                        "path": "common/adverts/ad011_mummific2.m4a"
-                    },
-                    {
-                        "duration": 60.25,
-                        "path": "common/adverts/ad013_scooter2_post.m4a"
-                    },
-                    {
-                        "duration": 46.48,
-                        "path": "common/adverts/ad034_horn_sprayface2.m4a"
-                    },
-                    {
-                        "duration": 42.74,
-                        "path": "common/adverts/ad071_brucie_1.m4a"
-                    },
-                    {
-                        "duration": 38.97,
-                        "path": "common/adverts/ad048_karin_dilantante.m4a"
-                    },
-                    {
-                        "duration": 37.36,
-                        "path": "common/adverts/ad070_bas_promo.m4a"
-                    },
-                    {
-                        "duration": 38.69,
-                        "path": "common/adverts/ad051_lipurgex_2.m4a"
-                    },
-                    {
-                        "duration": 34.52,
-                        "path": "common/adverts/ad037_russian_whiz.m4a"
-                    },
-                    {
-                        "duration": 44.56,
-                        "path": "common/adverts/ad007_whiz_junk.m4a"
-                    },
-                    {
-                        "duration": 49.17,
-                        "path": "common/adverts/ad032_russian_horn.m4a"
-                    },
-                    {
-                        "duration": 47.7,
-                        "path": "common/adverts/ad045_bittersweet_vibrate.m4a"
-                    },
-                    {
-                        "duration": 56.34,
-                        "path": "common/adverts/ad003_feinburg.m4a"
-                    },
-                    {
-                        "duration": 33.04,
-                        "path": "common/adverts/ad058_medicateme_1.m4a"
-                    },
-                    {
-                        "duration": 45.68,
-                        "path": "common/adverts/ad050_lipurgex_1.m4a"
-                    },
-                    {
-                        "duration": 67.34,
-                        "path": "common/adverts/ad027_lc_gun_club.m4a"
-                    },
-                    {
-                        "duration": 35.52,
-                        "path": "common/adverts/ad020_wingit1_brain.m4a"
-                    },
-                    {
-                        "duration": 41.84,
-                        "path": "common/adverts/ad033_spanish_horn.m4a"
-                    },
-                    {
-                        "duration": 48.94,
-                        "path": "common/adverts/ad028_nuca_1.m4a"
-                    },
-                    {
-                        "duration": 50.04,
-                        "path": "common/adverts/ad040_vipringtone_02.m4a"
-                    },
-                    {
-                        "duration": 46.06,
-                        "path": "common/adverts/ad082_jon_hunter_2.m4a"
-                    },
-                    {
-                        "duration": 18.0,
-                        "path": "common/adverts/ad089_fleeca_baby.m4a"
-                    },
-                    {
-                        "duration": 43.82,
-                        "path": "common/adverts/ad056_weaselnews_promo.m4a"
-                    },
-                    {
-                        "duration": 30.52,
-                        "path": "common/adverts/ad092_fleeca_tranny.m4a"
-                    },
-                    {
-                        "duration": 59.49,
-                        "path": "common/adverts/ad023_eugen2_science.m4a"
-                    },
-                    {
-                        "duration": 90.81,
-                        "path": "common/adverts/ad066_dragonbrain.m4a"
-                    },
-                    {
-                        "duration": 29.61,
-                        "path": "common/adverts/ad063_swingingpuppets.m4a"
-                    },
-                    {
-                        "duration": 64.98,
-                        "path": "common/adverts/ad024_vindication.m4a"
-                    },
-                    {
-                        "duration": 91.59,
-                        "path": "common/adverts/ad053_popping.m4a"
-                    },
-                    {
-                        "duration": 34.8,
-                        "path": "common/adverts/ad083_dna_search.m4a"
-                    },
-                    {
-                        "duration": 33.0,
-                        "path": "common/adverts/ad038_spanish_whiz.m4a"
-                    },
-                    {
-                        "duration": 29.8,
-                        "path": "common/adverts/ad068_pisswasser_2.m4a"
-                    },
-                    {
-                        "duration": 53.69,
-                        "path": "common/adverts/ad075_knife_show.m4a"
-                    },
-                    {
-                        "duration": 50.83,
-                        "path": "common/adverts/ad060_sciencecrime_1.m4a"
-                    },
-                    {
-                        "duration": 51.44,
-                        "path": "common/adverts/ad021_wingit2_strip.m4a"
-                    },
-                    {
-                        "duration": 60.96,
-                        "path": "common/adverts/ad004_excelsior.m4a"
-                    },
-                    {
-                        "duration": 46.89,
-                        "path": "common/adverts/ad041_babies_1.m4a"
-                    },
-                    {
-                        "duration": 42.39,
-                        "path": "common/adverts/ad078_mas_fuego_2.m4a"
-                    },
-                    {
-                        "duration": 42.89,
-                        "path": "common/adverts/ad016_alcotine_patch.m4a"
-                    },
-                    {
-                        "duration": 49.07,
-                        "path": "common/adverts/ad067_pisswasser_1.m4a"
-                    },
-                    {
-                        "duration": 39.09,
-                        "path": "common/adverts/ad069_wtf_theater.m4a"
-                    },
-                    {
-                        "duration": 54.52,
-                        "path": "common/adverts/ad044_trash_can_lids.m4a"
-                    },
-                    {
-                        "duration": 60.74,
-                        "path": "common/adverts/ad009_molis_fatgirl.m4a"
-                    },
-                    {
-                        "duration": 54.6,
-                        "path": "common/adverts/ad059_medicateme_2.m4a"
-                    }
-                ],
-                "tag": "adverts"
-            }
-        ]
-    },
-    "stations": [
-        {
-            "path": "radio_vladivostok"
-        },
-        {
-            "path": "radio_beat_95"
-        }
+  "info": {
+    "title": "GTA IV Radio",
+    "logo": "gta_iv.png"
+  },
+  "common": {
+    "fileGroups": [
+      {
+        "files": [
+          {
+            "duration": 105.89,
+            "path": "common/news/news_45.m4a"
+          },
+          {
+            "duration": 59.67,
+            "path": "common/news/news_51.m4a"
+          },
+          {
+            "duration": 1.6,
+            "path": "common/news/news_50.m4a"
+          },
+          {
+            "duration": 99.34,
+            "path": "common/news/news_44.m4a"
+          },
+          {
+            "duration": 66.13,
+            "path": "common/news/news_52.m4a"
+          },
+          {
+            "duration": 118.22999999999999,
+            "path": "common/news/news_46.m4a"
+          },
+          {
+            "duration": 77.06,
+            "path": "common/news/news_47.m4a"
+          },
+          {
+            "duration": 73.63,
+            "path": "common/news/news_53.m4a"
+          },
+          {
+            "duration": 63.62,
+            "path": "common/news/news_57.m4a"
+          },
+          {
+            "duration": 79.59,
+            "path": "common/news/news_43.m4a"
+          },
+          {
+            "duration": 103.37,
+            "path": "common/news/news_42.m4a"
+          },
+          {
+            "duration": 72.09,
+            "path": "common/news/news_56.m4a"
+          },
+          {
+            "duration": 90.22,
+            "path": "common/news/news_40.m4a"
+          },
+          {
+            "duration": 85.28999999999999,
+            "path": "common/news/news_54.m4a"
+          },
+          {
+            "duration": 64.9,
+            "path": "common/news/news_68.m4a"
+          },
+          {
+            "duration": 65.9,
+            "path": "common/news/news_69.m4a"
+          },
+          {
+            "duration": 57.9,
+            "path": "common/news/news_55.m4a"
+          },
+          {
+            "duration": 74.55,
+            "path": "common/news/news_41.m4a"
+          },
+          {
+            "duration": 97.4,
+            "path": "common/news/news_26.m4a"
+          },
+          {
+            "duration": 75.7,
+            "path": "common/news/news_32.m4a"
+          },
+          {
+            "duration": 66.08,
+            "path": "common/news/news_33.m4a"
+          },
+          {
+            "duration": 89.4,
+            "path": "common/news/news_27.m4a"
+          },
+          {
+            "duration": 87.64,
+            "path": "common/news/news_19.m4a"
+          },
+          {
+            "duration": 75.21000000000001,
+            "path": "common/news/news_31.m4a"
+          },
+          {
+            "duration": 65.47,
+            "path": "common/news/news_25.m4a"
+          },
+          {
+            "duration": 70.53,
+            "path": "common/news/news_24.m4a"
+          },
+          {
+            "duration": 98.68,
+            "path": "common/news/news_30.m4a"
+          },
+          {
+            "duration": 82.57,
+            "path": "common/news/news_18.m4a"
+          },
+          {
+            "duration": 78.62,
+            "path": "common/news/news_34.m4a"
+          },
+          {
+            "duration": 87.33,
+            "path": "common/news/news_20.m4a"
+          },
+          {
+            "duration": 94.86,
+            "path": "common/news/news_08.m4a"
+          },
+          {
+            "duration": 83.22,
+            "path": "common/news/news_09.m4a"
+          },
+          {
+            "duration": 75.93,
+            "path": "common/news/news_21.m4a"
+          },
+          {
+            "duration": 84.09,
+            "path": "common/news/news_35.m4a"
+          },
+          {
+            "duration": 74.96000000000001,
+            "path": "common/news/news_23.m4a"
+          },
+          {
+            "duration": 96.72999999999999,
+            "path": "common/news/news_37.m4a"
+          },
+          {
+            "duration": 70.64,
+            "path": "common/news/news_36.m4a"
+          },
+          {
+            "duration": 86.92,
+            "path": "common/news/news_22.m4a"
+          },
+          {
+            "duration": 97.97999999999999,
+            "path": "common/news/news_07.m4a"
+          },
+          {
+            "duration": 112.58,
+            "path": "common/news/news_13.m4a"
+          },
+          {
+            "duration": 102.47999999999999,
+            "path": "common/news/news_12.m4a"
+          },
+          {
+            "duration": 93.91,
+            "path": "common/news/news_06.m4a"
+          },
+          {
+            "duration": 95.66,
+            "path": "common/news/news_38.m4a"
+          },
+          {
+            "duration": 89.73,
+            "path": "common/news/news_10.m4a"
+          },
+          {
+            "duration": 62.88,
+            "path": "common/news/news_04.m4a"
+          },
+          {
+            "duration": 94.81,
+            "path": "common/news/news_05.m4a"
+          },
+          {
+            "duration": 78.32,
+            "path": "common/news/news_11.m4a"
+          },
+          {
+            "duration": 84.3,
+            "path": "common/news/news_39.m4a"
+          },
+          {
+            "duration": 104.93,
+            "path": "common/news/news_15.m4a"
+          },
+          {
+            "duration": 75.18,
+            "path": "common/news/news_01.m4a"
+          },
+          {
+            "duration": 88.81,
+            "path": "common/news/news_29.m4a"
+          },
+          {
+            "duration": 81.73,
+            "path": "common/news/news_28.m4a"
+          },
+          {
+            "duration": 89.86,
+            "path": "common/news/news_14.m4a"
+          },
+          {
+            "duration": 84.76,
+            "path": "common/news/news_02.m4a"
+          },
+          {
+            "duration": 75.41,
+            "path": "common/news/news_16.m4a"
+          },
+          {
+            "duration": 60.11,
+            "path": "common/news/news_17.m4a"
+          },
+          {
+            "duration": 126.08,
+            "path": "common/news/news_03.m4a"
+          },
+          {
+            "duration": 71.37,
+            "path": "common/news/news_58.m4a"
+          },
+          {
+            "duration": 79.7,
+            "path": "common/news/news_64.m4a"
+          },
+          {
+            "duration": 64.51,
+            "path": "common/news/news_70.m4a"
+          },
+          {
+            "duration": 59.74,
+            "path": "common/news/news_65.m4a"
+          },
+          {
+            "duration": 57.17,
+            "path": "common/news/news_59.m4a"
+          },
+          {
+            "duration": 69.25,
+            "path": "common/news/news_67.m4a"
+          },
+          {
+            "duration": 51.84,
+            "path": "common/news/news_66.m4a"
+          },
+          {
+            "duration": 68.93,
+            "path": "common/news/news_62.m4a"
+          },
+          {
+            "duration": 57.66,
+            "path": "common/news/news_63.m4a"
+          },
+          {
+            "duration": 54.82,
+            "path": "common/news/news_61.m4a"
+          },
+          {
+            "duration": 1.6,
+            "path": "common/news/news_49.m4a"
+          },
+          {
+            "duration": 97.35,
+            "path": "common/news/news_48.m4a"
+          },
+          {
+            "duration": 55.21,
+            "path": "common/news/news_60.m4a"
+          }
+        ],
+        "tag": "news"
+      },
+      {
+        "files": [
+          {
+            "duration": 14.75,
+            "path": "common/weather/wind_08.m4a"
+          },
+          {
+            "duration": 15.71,
+            "path": "common/weather/sun_08.m4a"
+          },
+          {
+            "duration": 10.47,
+            "path": "common/weather/sun_09.m4a"
+          },
+          {
+            "duration": 16.68,
+            "path": "common/weather/wind_09.m4a"
+          },
+          {
+            "duration": 12.52,
+            "path": "common/weather/cloud_09.m4a"
+          },
+          {
+            "duration": 9.1,
+            "path": "common/weather/cloud_08.m4a"
+          },
+          {
+            "duration": 12.05,
+            "path": "common/weather/rain_01.m4a"
+          },
+          {
+            "duration": 6.32,
+            "path": "common/weather/rain_02.m4a"
+          },
+          {
+            "duration": 8.75,
+            "path": "common/weather/rain_03.m4a"
+          },
+          {
+            "duration": 12.31,
+            "path": "common/weather/rain_07.m4a"
+          },
+          {
+            "duration": 10.25,
+            "path": "common/weather/fog_08.m4a"
+          },
+          {
+            "duration": 14.44,
+            "path": "common/weather/fog_09.m4a"
+          },
+          {
+            "duration": 13.55,
+            "path": "common/weather/rain_06.m4a"
+          },
+          {
+            "duration": 13.21,
+            "path": "common/weather/rain_10.m4a"
+          },
+          {
+            "duration": 12.94,
+            "path": "common/weather/rain_04.m4a"
+          },
+          {
+            "duration": 10.21,
+            "path": "common/weather/rain_05.m4a"
+          },
+          {
+            "duration": 8.75,
+            "path": "common/weather/rain_11.m4a"
+          },
+          {
+            "duration": 8.77,
+            "path": "common/weather/rain_08.m4a"
+          },
+          {
+            "duration": 11.58,
+            "path": "common/weather/fog_07.m4a"
+          },
+          {
+            "duration": 14.42,
+            "path": "common/weather/fog_06.m4a"
+          },
+          {
+            "duration": 6.98,
+            "path": "common/weather/fog_12.m4a"
+          },
+          {
+            "duration": 12.11,
+            "path": "common/weather/rain_09.m4a"
+          },
+          {
+            "duration": 17.87,
+            "path": "common/weather/fog_04.m4a"
+          },
+          {
+            "duration": 11.95,
+            "path": "common/weather/fog_10.m4a"
+          },
+          {
+            "duration": 16.79,
+            "path": "common/weather/fog_11.m4a"
+          },
+          {
+            "duration": 10.71,
+            "path": "common/weather/fog_05.m4a"
+          },
+          {
+            "duration": 15.82,
+            "path": "common/weather/fog_01.m4a"
+          },
+          {
+            "duration": 12.42,
+            "path": "common/weather/fog_02.m4a"
+          },
+          {
+            "duration": 9.67,
+            "path": "common/weather/fog_03.m4a"
+          },
+          {
+            "duration": 15.44,
+            "path": "common/weather/cloud_03.m4a"
+          },
+          {
+            "duration": 6.74,
+            "path": "common/weather/wind_01.m4a"
+          },
+          {
+            "duration": 15.57,
+            "path": "common/weather/sun_01.m4a"
+          },
+          {
+            "duration": 11.62,
+            "path": "common/weather/cloud_02.m4a"
+          },
+          {
+            "duration": 12.65,
+            "path": "common/weather/wind_02.m4a"
+          },
+          {
+            "duration": 17.15,
+            "path": "common/weather/sun_02.m4a"
+          },
+          {
+            "duration": 10.77,
+            "path": "common/weather/sun_03.m4a"
+          },
+          {
+            "duration": 15.83,
+            "path": "common/weather/wind_03.m4a"
+          },
+          {
+            "duration": 12.04,
+            "path": "common/weather/cloud_01.m4a"
+          },
+          {
+            "duration": 10.75,
+            "path": "common/weather/cloud_05.m4a"
+          },
+          {
+            "duration": 8.31,
+            "path": "common/weather/cloud_11.m4a"
+          },
+          {
+            "duration": 10.38,
+            "path": "common/weather/wind_07.m4a"
+          },
+          {
+            "duration": 13.17,
+            "path": "common/weather/sun_07.m4a"
+          },
+          {
+            "duration": 10.46,
+            "path": "common/weather/sun_06.m4a"
+          },
+          {
+            "duration": 10.95,
+            "path": "common/weather/sun_12.m4a"
+          },
+          {
+            "duration": 13.27,
+            "path": "common/weather/wind_06.m4a"
+          },
+          {
+            "duration": 9.87,
+            "path": "common/weather/cloud_10.m4a"
+          },
+          {
+            "duration": 10.74,
+            "path": "common/weather/cloud_04.m4a"
+          },
+          {
+            "duration": 15.58,
+            "path": "common/weather/cloud_06.m4a"
+          },
+          {
+            "duration": 10.06,
+            "path": "common/weather/wind_10.m4a"
+          },
+          {
+            "duration": 12.04,
+            "path": "common/weather/wind_04.m4a"
+          },
+          {
+            "duration": 13.1,
+            "path": "common/weather/sun_04.m4a"
+          },
+          {
+            "duration": 12.8,
+            "path": "common/weather/sun_10.m4a"
+          },
+          {
+            "duration": 8.56,
+            "path": "common/weather/sun_11.m4a"
+          },
+          {
+            "duration": 11.36,
+            "path": "common/weather/sun_05.m4a"
+          },
+          {
+            "duration": 11.03,
+            "path": "common/weather/wind_05.m4a"
+          },
+          {
+            "duration": 6.4,
+            "path": "common/weather/wind_11.m4a"
+          },
+          {
+            "duration": 15.17,
+            "path": "common/weather/cloud_07.m4a"
+          }
+        ],
+        "tag": "weather"
+      },
+      {
+        "files": [
+          {
+            "duration": 54.7,
+            "path": "common/adverts/ad012_scooter1_trans.m4a"
+          },
+          {
+            "duration": 48.6,
+            "path": "common/adverts/ad005_track_beac.m4a"
+          },
+          {
+            "duration": 38.2,
+            "path": "common/adverts/ad043_babies_3.m4a"
+          },
+          {
+            "duration": 57.36,
+            "path": "common/adverts/ad035_tophooker.m4a"
+          },
+          {
+            "duration": 45.58,
+            "path": "common/adverts/ad029_nuca_2.m4a"
+          },
+          {
+            "duration": 29.84,
+            "path": "common/adverts/ad062_sciencecrime_3.m4a"
+          },
+          {
+            "duration": 49.02,
+            "path": "common/adverts/ad065_waningwithstars_2.m4a"
+          },
+          {
+            "duration": 20.38,
+            "path": "common/adverts/ad091_fleeca_mom.m4a"
+          },
+          {
+            "duration": 47.23,
+            "path": "common/adverts/ad039_vipringtone_01.m4a"
+          },
+          {
+            "duration": 43.88,
+            "path": "common/adverts/ad061_sciencecrime_2.m4a"
+          },
+          {
+            "duration": 29.19,
+            "path": "common/adverts/ad049_whiz_flip.m4a"
+          },
+          {
+            "duration": 33.84,
+            "path": "common/adverts/ad084_hamster_harem.m4a"
+          },
+          {
+            "duration": 38.1,
+            "path": "common/adverts/ad042_babies_2.m4a"
+          },
+          {
+            "duration": 55.33,
+            "path": "common/adverts/ad088_civilservice.m4a"
+          },
+          {
+            "duration": 50.14,
+            "path": "common/adverts/ad001_anime1_mchbtt.m4a"
+          },
+          {
+            "duration": 34.38,
+            "path": "common/adverts/ad073_cryogenics.m4a"
+          },
+          {
+            "duration": 61.09,
+            "path": "common/adverts/ad017_electrolyte.m4a"
+          },
+          {
+            "duration": 49.83,
+            "path": "common/adverts/ad022_eugen1_design.m4a"
+          },
+          {
+            "duration": 34.4,
+            "path": "common/adverts/ad015_alcopatch.m4a"
+          },
+          {
+            "duration": 65.22,
+            "path": "common/adverts/ad019_elcamuchoroboto.m4a"
+          },
+          {
+            "duration": 38.36,
+            "path": "common/adverts/ad025_the_horn.m4a"
+          },
+          {
+            "duration": 54.36,
+            "path": "common/adverts/ad077_jon_hunter_1.m4a"
+          },
+          {
+            "duration": 37.04,
+            "path": "common/adverts/ad093_zit.m4a"
+          },
+          {
+            "duration": 29.18,
+            "path": "common/adverts/ad006_track_beac2.m4a"
+          },
+          {
+            "duration": 48.23,
+            "path": "common/adverts/ad072_brucie_2.m4a"
+          },
+          {
+            "duration": 19.16,
+            "path": "common/adverts/ad090_fleeca_chop.m4a"
+          },
+          {
+            "duration": 33.78,
+            "path": "common/adverts/ad046_bittersweet_baseball.m4a"
+          },
+          {
+            "duration": 59.17,
+            "path": "common/adverts/ad026_carbon_date.m4a"
+          },
+          {
+            "duration": 38.33,
+            "path": "common/adverts/ad080_mike_graves_1.m4a"
+          },
+          {
+            "duration": 57.22,
+            "path": "common/adverts/ad014_scooter3_evolutn.m4a"
+          },
+          {
+            "duration": 16.57,
+            "path": "common/adverts/ad074_jeremy_promo.m4a"
+          },
+          {
+            "duration": 47.66,
+            "path": "common/adverts/ad002_anime2_robtbb.m4a"
+          },
+          {
+            "duration": 62.58,
+            "path": "common/adverts/ad030_russian_excelsior.m4a"
+          },
+          {
+            "duration": 53.57,
+            "path": "common/adverts/ad054_psychic.m4a"
+          },
+          {
+            "duration": 36.37,
+            "path": "common/adverts/ad064_viginsurance.m4a"
+          },
+          {
+            "duration": 30.19,
+            "path": "common/adverts/ad079_poker_promo.m4a"
+          },
+          {
+            "duration": 39.44,
+            "path": "common/adverts/ad008_mas_fuego.m4a"
+          },
+          {
+            "duration": 33.14,
+            "path": "common/adverts/ad055_waning_stars_boyband.m4a"
+          },
+          {
+            "duration": 60.51,
+            "path": "common/adverts/ad057_male_aromatherapy.m4a"
+          },
+          {
+            "duration": 34.01,
+            "path": "common/adverts/ad081_mike_graves_2.m4a"
+          },
+          {
+            "duration": 60.08,
+            "path": "common/adverts/ad018_al_dentes.m4a"
+          },
+          {
+            "duration": 48.91,
+            "path": "common/adverts/ad087_suburbs.m4a"
+          },
+          {
+            "duration": 58.89,
+            "path": "common/adverts/ad036_tophooker2_revised.m4a"
+          },
+          {
+            "duration": 57.52,
+            "path": "common/adverts/ad010_mummific1.m4a"
+          },
+          {
+            "duration": 62.24,
+            "path": "common/adverts/ad031_im_rich.m4a"
+          },
+          {
+            "duration": 58.94,
+            "path": "common/adverts/ad047_excelsior_spanish.m4a"
+          },
+          {
+            "duration": 51.08,
+            "path": "common/adverts/ad011_mummific2.m4a"
+          },
+          {
+            "duration": 60.25,
+            "path": "common/adverts/ad013_scooter2_post.m4a"
+          },
+          {
+            "duration": 46.48,
+            "path": "common/adverts/ad034_horn_sprayface2.m4a"
+          },
+          {
+            "duration": 42.74,
+            "path": "common/adverts/ad071_brucie_1.m4a"
+          },
+          {
+            "duration": 38.97,
+            "path": "common/adverts/ad048_karin_dilantante.m4a"
+          },
+          {
+            "duration": 37.36,
+            "path": "common/adverts/ad070_bas_promo.m4a"
+          },
+          {
+            "duration": 38.69,
+            "path": "common/adverts/ad051_lipurgex_2.m4a"
+          },
+          {
+            "duration": 34.52,
+            "path": "common/adverts/ad037_russian_whiz.m4a"
+          },
+          {
+            "duration": 44.56,
+            "path": "common/adverts/ad007_whiz_junk.m4a"
+          },
+          {
+            "duration": 49.17,
+            "path": "common/adverts/ad032_russian_horn.m4a"
+          },
+          {
+            "duration": 47.7,
+            "path": "common/adverts/ad045_bittersweet_vibrate.m4a"
+          },
+          {
+            "duration": 56.34,
+            "path": "common/adverts/ad003_feinburg.m4a"
+          },
+          {
+            "duration": 33.04,
+            "path": "common/adverts/ad058_medicateme_1.m4a"
+          },
+          {
+            "duration": 45.68,
+            "path": "common/adverts/ad050_lipurgex_1.m4a"
+          },
+          {
+            "duration": 67.34,
+            "path": "common/adverts/ad027_lc_gun_club.m4a"
+          },
+          {
+            "duration": 35.52,
+            "path": "common/adverts/ad020_wingit1_brain.m4a"
+          },
+          {
+            "duration": 41.84,
+            "path": "common/adverts/ad033_spanish_horn.m4a"
+          },
+          {
+            "duration": 48.94,
+            "path": "common/adverts/ad028_nuca_1.m4a"
+          },
+          {
+            "duration": 50.04,
+            "path": "common/adverts/ad040_vipringtone_02.m4a"
+          },
+          {
+            "duration": 46.06,
+            "path": "common/adverts/ad082_jon_hunter_2.m4a"
+          },
+          {
+            "duration": 18.0,
+            "path": "common/adverts/ad089_fleeca_baby.m4a"
+          },
+          {
+            "duration": 43.82,
+            "path": "common/adverts/ad056_weaselnews_promo.m4a"
+          },
+          {
+            "duration": 30.52,
+            "path": "common/adverts/ad092_fleeca_tranny.m4a"
+          },
+          {
+            "duration": 59.49,
+            "path": "common/adverts/ad023_eugen2_science.m4a"
+          },
+          {
+            "duration": 90.81,
+            "path": "common/adverts/ad066_dragonbrain.m4a"
+          },
+          {
+            "duration": 29.61,
+            "path": "common/adverts/ad063_swingingpuppets.m4a"
+          },
+          {
+            "duration": 64.98,
+            "path": "common/adverts/ad024_vindication.m4a"
+          },
+          {
+            "duration": 91.59,
+            "path": "common/adverts/ad053_popping.m4a"
+          },
+          {
+            "duration": 34.8,
+            "path": "common/adverts/ad083_dna_search.m4a"
+          },
+          {
+            "duration": 33.0,
+            "path": "common/adverts/ad038_spanish_whiz.m4a"
+          },
+          {
+            "duration": 29.8,
+            "path": "common/adverts/ad068_pisswasser_2.m4a"
+          },
+          {
+            "duration": 53.69,
+            "path": "common/adverts/ad075_knife_show.m4a"
+          },
+          {
+            "duration": 50.83,
+            "path": "common/adverts/ad060_sciencecrime_1.m4a"
+          },
+          {
+            "duration": 51.44,
+            "path": "common/adverts/ad021_wingit2_strip.m4a"
+          },
+          {
+            "duration": 60.96,
+            "path": "common/adverts/ad004_excelsior.m4a"
+          },
+          {
+            "duration": 46.89,
+            "path": "common/adverts/ad041_babies_1.m4a"
+          },
+          {
+            "duration": 42.39,
+            "path": "common/adverts/ad078_mas_fuego_2.m4a"
+          },
+          {
+            "duration": 42.89,
+            "path": "common/adverts/ad016_alcotine_patch.m4a"
+          },
+          {
+            "duration": 49.07,
+            "path": "common/adverts/ad067_pisswasser_1.m4a"
+          },
+          {
+            "duration": 39.09,
+            "path": "common/adverts/ad069_wtf_theater.m4a"
+          },
+          {
+            "duration": 54.52,
+            "path": "common/adverts/ad044_trash_can_lids.m4a"
+          },
+          {
+            "duration": 60.74,
+            "path": "common/adverts/ad009_molis_fatgirl.m4a"
+          },
+          {
+            "duration": 54.6,
+            "path": "common/adverts/ad059_medicateme_2.m4a"
+          }
+        ],
+        "tag": "adverts"
+      }
     ]
+  },
+  "stations": [
+    {
+      "path": "radio_beat_95"
+    },
+    {
+      "path": "radio_bobby_konders"
+    }
+  ]
 }
